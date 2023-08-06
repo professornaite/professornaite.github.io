@@ -20,7 +20,7 @@ website:
 
 format:
   html:
-    theme: cerulean
+    theme: ketchy
     toc: true
 
 editor: source
