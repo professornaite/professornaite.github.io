@@ -8,7 +8,7 @@ about:
 
 :::{#me}
 
-This is my teaching and learning site. I go by Professor Alexander. My goal is to contribute to the world by improving how we learn, our collective knowledge of history and injustice and, importantly, understanding how to integrate quantification and utilize mathematics in these conversations in ways that are productive and fun but also critical. You can view my personal website at [professornaite.com](https://professornaite.com).
+I go by Professor Alexander and this is my teaching and learning site. My goal is to contribute to the world by improving how we learn, our collective knowledge of history and injustice and, importantly, understanding how to integrate theory, quantification, and utilize formal mathematics in these conversations in ways that are productive to the material lives of our neighbors, engaging, and also critical.
 
 ## Education
 
@@ -22,7 +22,9 @@ This is my teaching and learning site. I go by Professor Alexander. My goal is t
 
 I have been a teacher for more than 15 years. Currently, I am on the faculty at Howard University, where I hold a dual appointment in the Center for Applied Data Science and Analytics (CADSA) and the School of Education. Most recently, I was a member of the mathematics faculty at Morehouse College in Atlanta, GA. Prior to my time in Atlanta, I was a professor at the University of San Francisco and a high school mathematics teacher in Oakland, CA.
 
-I am also the founder and director of the [*Quantitative Histories Workshop*](https://linktr.ee/QuantHistories), a community-centered teaching and learning lab for students and faculty members at Historically Black Colleges and Universities (HBCUs).
+I am also the founding director of the [*Quantitative Histories Workshop*](https://linktr.ee/QuantHistories), a community-centered teaching and learning lab for students and faculty at Historically Black Colleges and Universities (HBCUs). If you are interested in learning more, please complete [this form](https://docs.google.com/forms/d/e/1FAIpQLScKPatSYYIdgX7bkugZPoIBZGUDAwYMrrhTUmecqit3hK3d2A/viewform).
+
+You can view my personal website at [professornaite.com](https://professornaite.com).
 
 :::
 
