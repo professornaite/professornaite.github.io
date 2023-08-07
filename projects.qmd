@@ -1,13 +1,48 @@
 ---
-title: "Projects"
+title: "Ongoing Research Projects"
 ---
 
-## Police, Prisons, Policy
+## Police and Policy
+
+### fatal interactions
+
+This project explore micro and macro factors related to fatal police interactions.
+
+### race and public opinion
+
+This project explores the role of race in U.S. public opinion data.
 
 ## Labor and the Law
 
+### three-fifths
+
+This project explores the historical and modern analysis of prison gerrymandering.
+
+### black:planet
+
+This project explores the histories of Black astronauts.
+
 ## Critical Quantification Archive
+
+### ida b.
+
+This project explores the life and work of activist Ida B. Wells-Barnett.
+
+### dubois
+
+This project explores quantification in the sociological theories of W. E. B. Du Bois.
+
+### mr. miller
+
+This project explores the life and work of mathematical sociologist Kelly Miller.
 
 ## Human x Digital Networks
 
-## Black:Planet
+### each one, teach one
+
+This project explores peer networks in undergraduate mathematics.
+
+### mathematics identity and achievement
+
+This project analyzes data on identity and achievement in mathematics.
+
