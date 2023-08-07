@@ -8,6 +8,10 @@ website:
     left:
       - href: index.qmd
         text: Home
+      - href: teaching.qmd
+        text: Teaching
+      - href: learning.qmd
+        text: Learning
       - href: projects.qmd
         text: Research
     tools:
