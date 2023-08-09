@@ -54,5 +54,12 @@
     "title": "Interactive projects",
     "section": "",
     "text": "library(shiny) library(bslib) library(dplyr) library(ggplot2) library(ggExtra)\npenguins_csv <- “https://raw.githubusercontent.com/jcheng5/simplepenguins.R/main/penguins.csv”\ndf <- readr::read_csv(penguins_csv) # Find subset of columns that are suitable for scatter plot df_num <- df |> select(where(is.numeric), -Year)\nui <- page_sidebar( theme = bs_theme(bootswatch = “minty”), sidebar = sidebar( varSelectInput(“xvar”, “X variable”, df_num, selected = “Bill Length (mm)”), varSelectInput(“yvar”, “Y variable”, df_num, selected = “Bill Depth (mm)”), checkboxGroupInput( “species”, “Filter by species”, choices = unique(df\\(Species),  selected = unique(df\\)Species) ), hr(), # Add a horizontal rule checkboxInput(“by_species”, “Show species”, TRUE), checkboxInput(“show_margins”, “Show marginal plots”, TRUE), checkboxInput(“smooth”, “Add smoother”), ), plotOutput(“scatter”) )\nserver <- function(input, output, session) { subsetted <- reactive({ req(input\\(species)  df |> filter(Species %in% input\\)species) })\noutput\\(scatter <- renderPlot({  p <- ggplot(subsetted(), aes(!!input\\)xvar, !!input\\(yvar)) + list(  theme(legend.position = \"bottom\"),  if (input\\)by_species) aes(color = Species), geom_point(), if (input$smooth) geom_smooth() )\nif (input$show_margins) {\n  margin_type <- if (input$by_species) \"density\" else \"histogram\"\n  p <- ggExtra::ggMarginal(p, type = margin_type, margins = \"both\",\n    size = 8, groupColour = input$by_species, groupFill = input$by_species)\n}\n\np\n}, res = 100) }\nshinyApp(ui, server)"
+  },
+  {
+    "objectID": "quant-histories-workshop.html",
+    "href": "quant-histories-workshop.html",
+    "title": "Quantitative Histories Workshop",
+    "section": "",
+    "text": "we link history, mathematics, and sociology to learn about in/justice and futurity.\n\n\nmeet our team\nNathan Alexander, PhD\n\nAssistant Professor, Howard University\nFounder of the Quantitative Histories Workshop\nDirector of the Howard Community Data Fellowship\n\nHye Ryeon Jang, PhD\n\nAssistant Professor, Morehouse College\nDirector of the Morehouse Community Data Fellowship\n\nKevin Bryson, PhD student, University of Chicago\nDirector of the Data Science and Critical Mathematics Program\nD’Juan James, MS, Butler Prep HS\nCo-Director of Data Science and Critical Mathematics\nMaya Phillips, Spelman College\nLab Manager"
   }
 ]
