@@ -1,5 +1,19 @@
 [
   {
+    "objectID": "teaching.html",
+    "href": "teaching.html",
+    "title": "teaching",
+    "section": "",
+    "text": "DATA 202: Statistically Measuring and Modeling Social Justice\n\n\nHMTH 130: Basic Statistics"
+  },
+  {
+    "objectID": "learning.html",
+    "href": "learning.html",
+    "title": "learning",
+    "section": "",
+    "text": "A few things I am currently working on…"
+  },
+  {
     "objectID": "projects.html",
     "href": "projects.html",
     "title": "research",
@@ -35,24 +49,10 @@
     "text": "I go by Professor Alexander and this is my teaching and learning site. My goal is to contribute to the world by improving how we learn, and our collective knowledge of history and injustice. Most importantly, I have dedicated my work to understanding how we can better integrate theory, quantification, and formal mathematics into conversations around local and global injustices in ways that remain critical, systems-oriented, and productive to the material lives of our neighbors.\n\n\nColumbia University, PhD, 2015\nColumbia University, MS, 2011\nNew York University, MA, 2008\nUniversity of North Carolina at Chapel Hill, BA, 2007\nNational University of Singapore, Exchange Student, 2005\n\n\n\nI have been a teacher for more than 15 years. Currently, I am on the faculty at Howard University, where I hold a dual appointment in the School of Education and the Center for Applied Data Science and Analytics (CADSA). Most recently, I was a member of the mathematics faculty at Morehouse College in Atlanta, GA. Prior to my time in Atlanta, I was a professor of mathematics and statistics education at the University of San Francisco, a high school mathematics teacher in Oakland, CA, and a visiting scholar and GSI at UC Berkeley.\nI am also the founding director of the Quantitative Histories Workshop, a community-centered teaching and learning lab for students and faculty, especially those at Historically Black Colleges and Universities (HBCUs). If you are interested in learning more, complete this form. You can view my personal website at professornaite.com.\nPlease do not hesitate to contact me if you have any questions: professornaite [at] gmail [dot] com"
   },
   {
-    "objectID": "teaching.html#data-202-statistically-measuring-and-modeling-social-justice",
-    "href": "teaching.html#data-202-statistically-measuring-and-modeling-social-justice",
-    "title": "teaching",
-    "section": "DATA 202: Statistically Measuring and Modeling Social Justice",
-    "text": "DATA 202: Statistically Measuring and Modeling Social Justice"
-  },
-  {
-    "objectID": "learning.html",
-    "href": "learning.html",
-    "title": "learning",
+    "objectID": "projects-interactive.html",
+    "href": "projects-interactive.html",
+    "title": "Interactive projects",
     "section": "",
-    "text": "A few things I am currently working on…"
-  },
-  {
-    "objectID": "teaching.html",
-    "href": "teaching.html",
-    "title": "teaching",
-    "section": "",
-    "text": "DATA 202: Statistically Measuring and Modeling Social Justice\n\n\nHMTH 130: Basic Statistics"
+    "text": "library(shiny) library(bslib) library(dplyr) library(ggplot2) library(ggExtra)\npenguins_csv <- “https://raw.githubusercontent.com/jcheng5/simplepenguins.R/main/penguins.csv”\ndf <- readr::read_csv(penguins_csv) # Find subset of columns that are suitable for scatter plot df_num <- df |> select(where(is.numeric), -Year)\nui <- page_sidebar( theme = bs_theme(bootswatch = “minty”), sidebar = sidebar( varSelectInput(“xvar”, “X variable”, df_num, selected = “Bill Length (mm)”), varSelectInput(“yvar”, “Y variable”, df_num, selected = “Bill Depth (mm)”), checkboxGroupInput( “species”, “Filter by species”, choices = unique(df\\(Species),  selected = unique(df\\)Species) ), hr(), # Add a horizontal rule checkboxInput(“by_species”, “Show species”, TRUE), checkboxInput(“show_margins”, “Show marginal plots”, TRUE), checkboxInput(“smooth”, “Add smoother”), ), plotOutput(“scatter”) )\nserver <- function(input, output, session) { subsetted <- reactive({ req(input\\(species)  df |> filter(Species %in% input\\)species) })\noutput\\(scatter <- renderPlot({  p <- ggplot(subsetted(), aes(!!input\\)xvar, !!input\\(yvar)) + list(  theme(legend.position = \"bottom\"),  if (input\\)by_species) aes(color = Species), geom_point(), if (input$smooth) geom_smooth() )\nif (input$show_margins) {\n  margin_type <- if (input$by_species) \"density\" else \"histogram\"\n  p <- ggExtra::ggMarginal(p, type = margin_type, margins = \"both\",\n    size = 8, groupColour = input$by_species, groupFill = input$by_species)\n}\n\np\n}, res = 100) }\nshinyApp(ui, server)"
   }
 ]
