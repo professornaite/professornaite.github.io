@@ -24,5 +24,5 @@ title: "Quantitative Histories Workshop"
 - Assistant Director of the Data Science and Critical Mathematics (DSCM) Program
 
 | Maya Phillips 
-- Postbac, BA Spelman College
+- Post-bacc, BA Spelman College
 - Lab Manager
