@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Nathan Alexander, PhD - Interactive projects</title>
+<title>Nathan Alexander, PhD - resources</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -59,7 +59,6 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
 </head>
 
@@ -95,6 +94,10 @@ ul.task-list li input[type="checkbox"] {
     <a class="nav-link" href="./projects.html">
  <span class="menu-text">Research</span></a>
   </li>  
+  <li class="nav-item">
+    <a class="nav-link active" href="./resources.html" aria-current="page">
+ <span class="menu-text">Resources</span></a>
+  </li>  
 </ul>
               <div id="quarto-search" class="" title="Search"></div>
           </div> <!-- /navcollapse -->
@@ -113,7 +116,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Interactive projects</h1>
+<h1 class="title">resources</h1>
 </div>
 
 
@@ -128,21 +131,6 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<p>library(shiny) library(bslib) library(dplyr) library(ggplot2) library(ggExtra)</p>
-<p>penguins_csv &lt;- “https://raw.githubusercontent.com/jcheng5/simplepenguins.R/main/penguins.csv”</p>
-<p>df &lt;- readr::read_csv(penguins_csv) # Find subset of columns that are suitable for scatter plot df_num &lt;- df |&gt; select(where(is.numeric), -Year)</p>
-<p>ui &lt;- page_sidebar( theme = bs_theme(bootswatch = “minty”), sidebar = sidebar( varSelectInput(“xvar”, “X variable”, df_num, selected = “Bill Length (mm)”), varSelectInput(“yvar”, “Y variable”, df_num, selected = “Bill Depth (mm)”), checkboxGroupInput( “species”, “Filter by species”, choices = unique(df<span class="math inline">\(Species),  selected = unique(df\)</span>Species) ), hr(), # Add a horizontal rule checkboxInput(“by_species”, “Show species”, TRUE), checkboxInput(“show_margins”, “Show marginal plots”, TRUE), checkboxInput(“smooth”, “Add smoother”), ), plotOutput(“scatter”) )</p>
-<p>server &lt;- function(input, output, session) { subsetted &lt;- reactive({ req(input<span class="math inline">\(species)  df |&gt; filter(Species %in% input\)</span>species) })</p>
-<p>output<span class="math inline">\(scatter &lt;- renderPlot({  p &lt;- ggplot(subsetted(), aes(!!input\)</span>xvar, !!input<span class="math inline">\(yvar)) + list(  theme(legend.position = "bottom"),  if (input\)</span>by_species) aes(color = Species), geom_point(), if (input$smooth) geom_smooth() )</p>
-<pre><code>if (input$show_margins) {
-  margin_type &lt;- if (input$by_species) "density" else "histogram"
-  p &lt;- ggExtra::ggMarginal(p, type = margin_type, margins = "both",
-    size = 8, groupColour = input$by_species, groupFill = input$by_species)
-}
-
-p</code></pre>
-<p>}, res = 100) }</p>
-<p>shinyApp(ui, server)</p>
 
 
 
