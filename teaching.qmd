@@ -2,6 +2,39 @@
 title: "teaching"
 ---
 
-### [DATA 202: Statistically Measuring and Modeling Social Justice](https://professornaite.github.io/data-202-fa23)
+## Current courses
 
-### HMTH 130: Basic Statistics
+#### - [Statistically Measuring and Modeling Social Justice (in R)](https://professornaite.github.io/data-202-fa23)
+
+
+## Previous courses
+For access to any previous course materials, please contact me via email.
+
+#### - Advanced Probability and Statistics
+
+#### - Applied Educational Statistics (in Stata)
+
+#### - Basic Statistics (in R)
+
+#### - Calculus I
+
+#### - College Algebra and Precalculus
+
+#### - Curriculum and Instruction in Mathematics
+
+#### - Classroom Interactions in Science and Mathematics
+
+#### - Ethnomathematics
+
+#### - Introduction to Statistics
+
+#### - Teaching for Diversity and Social Justice
+
+#### - Youth Participatory Action Research Seminar (in Excel)
+
+
+
+
+
+
+
