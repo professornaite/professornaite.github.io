@@ -2,6 +2,6 @@
 title: "teaching"
 ---
 
-### DATA 202: Statistically Measuring and Modeling Social Justice
+### [DATA 202: Statistically Measuring and Modeling Social Justice](https://professornaite.github.io/data-202-fa23)
 
 ### HMTH 130: Basic Statistics

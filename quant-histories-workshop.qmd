@@ -24,5 +24,22 @@ title: "Quantitative Histories Workshop"
 - Assistant Director of the Data Science and Critical Mathematics (DSCM) Program
 
 | Maya Phillips 
-- Post-bacc, BA Spelman College
-- Lab Manager
+- Lab Manager and PostBacc
+- BA, Spelman College
+
+
+### meet our partners
+
+| Center for Applied Data Science and Analytics (CADSA) 
+- Amy Quarkume, PhD
+-- Associate Professor, Howard University
+
+| Spelman Census Center
+- Celeste Lee, PhD, Assistant Professor
+-- Spelman College
+
+| 1526 Project
+- Samuel Livingston, PhD
+-- Associate Professor, Morehouse College
+
+
