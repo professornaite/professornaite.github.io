@@ -8,7 +8,7 @@ about:
 
 :::{#me}
 
-Hello everyone. Dr. Nathan Alexander here and this is my teaching and learning site. I study the role of context in probability theory, statistical data analysis, and mathematical modeling. My goal is to contribute to the world by improving how we learn, and our collective knowledge of history and injustice. Most importantly, I have dedicated my work to understanding how we can better integrate theory, quantification, and formal mathematics into conversations around local and global injustices in ways that remain critical, systems-oriented, and productive to the material lives of our neighbors.
+Dr. Nathan Alexander here and this is my teaching and learning site. I study the role of context in probability theory, statistical data analysis, and mathematical modeling. My goal is to contribute to the world by improving how we learn, and our collective knowledge of history and injustice. Most importantly, I have dedicated my work to understanding how we can better integrate theory, quantification, and formal mathematics into conversations around local and global injustices in ways that remain critical, systems-oriented, and productive to the material lives of our neighbors.
 
 ## Education
 
@@ -22,7 +22,7 @@ Hello everyone. Dr. Nathan Alexander here and this is my teaching and learning s
 
 I have been a teacher for more than 15 years. Currently, I am on the faculty at Howard University, where I hold a dual appointment in the School of Education and the Center for Applied Data Science and Analytics (CADSA). Most recently, I was a member of the mathematics faculty at Morehouse College in Atlanta, GA. Prior to my time in Atlanta, I was a professor of mathematics and statistics education at the University of San Francisco, a high school mathematics teacher in Oakland, CA, and a visiting scholar and GSI at UC Berkeley.
 
-I am also the founding director of the [*Quantitative Histories Workshop*](https://linktr.ee/QuantHistories), a community-centered teaching and learning lab for students and faculty, especially those at Historically Black Colleges and Universities (HBCUs). If you are interested in learning more, complete [this form](https://docs.google.com/forms/d/e/1FAIpQLScKPatSYYIdgX7bkugZPoIBZGUDAwYMrrhTUmecqit3hK3d2A/viewform). You can view a more personal site at [professornaite.com](https://professornaite.com).
+I am also the founding director of the [*Quantitative Histories Workshop*](https://linktr.ee/QuantHistories), a community-centered teaching and learning lab for students and faculty, especially those at Historically Black Colleges and Universities (HBCUs). If you are interested in learning more, complete [this form](https://docs.google.com/forms/d/e/1FAIpQLScKPatSYYIdgX7bkugZPoIBZGUDAwYMrrhTUmecqit3hK3d2A/viewform). You can view my other website at [professornaite.com](https://professornaite.com).
 
 :::
 
