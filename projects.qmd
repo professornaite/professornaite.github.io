@@ -2,4 +2,6 @@
 title: "research"
 ---
 
-Learn more about our lab and project work at [The Quant Shop](https://github.com/quant-shop).
+Our lab integrates history and sociology to consider problems of injustice.
+
+Learn more about our forthcoming data projects at [The Quant Shop](https://github.com/quant-shop).

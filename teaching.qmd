@@ -4,7 +4,7 @@ title: "teaching"
 
 ## Current courses
 
-#### - [Statistically Measuring and Modeling Social Justice (in R)](https://professornaite.github.io/data-202-fa23)
+#### - [Statistically Measuring and Modeling Social Justice (in R)](https://github.com/data202-fa23)
 
 
 ## Previous courses
