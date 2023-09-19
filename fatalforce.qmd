@@ -1,0 +1,92 @@
+---
+title: "Fatal Force"
+---
+
+## Introduction
+The `Fatal Force` branch project is one of the core data explorations for our lab members. 
+
+We are integrating a critical modeling theory (CMT) with a few different data sets to develop a database that will allow our current and future lab members to answer questions about racialized systems, history, and policing at various levels.
+
+Here, we offer introductory code used to welcome new members to our lab. Shout out to new members!
+
+### Task 0: Preliminaries
+
+Before any data tasks, you will need to develop a practice to developing your expertise for our project. The best way to do this is to progressively build your understanding of the research literature in this area. Please take 5 minutes to read through a new annotation [here](https://docs.google.com/document/d/1Px7ZqAVGPz_B2i2vURRxIhVweMLPIyiX8fGLKRArhjY/edit?usp=drive_link).
+
+### Task 1: Launch a new project
+
+First, we'll generate a new project. Please open your RStudio IDE.
+
+Navigate to the following: File > New Project
+
+A new window will open. In this new window, you will need to name your project. As a group, we decided to name the project `fatalv2' (thanks, Kyshan!) since we will be analyzing the second version of the fatal force data set.
+
+#### Task 1-a: Clear objects from your envioronment
+
+```{r}
+rm(list=ls())
+```
+
+
+### Task 2: Load your packages
+If you haven't already, you'll need to load the tidyverse package.
+
+```{r}
+#| echo: true
+#| warning: false
+#| output: false
+install.packages("tidyverse", repos = "http://cran.us.r-project.org")
+```
+
+### Task 3: Load your libraries
+We will use a set of specific libraries in the packages that we just loaded. In the `tidyverse` package, there are some libraries that we'll need to bring in our data as a .csv file; so we'll load the entire library.
+
+```{r}
+#| echo: true
+#| output: false
+#| warning: false
+library(tidyverse)
+```
+
+### Task 4: Import your data
+
+Please navigate to the website for the raw code that we'll bring into R.
+
+We want to bring data directly in from the github repository
+
+This data is from the GitHub for Washington Post[^1].
+[^1]: https://github.com/washingtonpost
+
+```{r}
+#| echo: true
+#| output: false
+#| warning: false
+# import your data using the read.csv command
+fatal_raw <- read.csv("https://raw.githubusercontent.com/washingtonpost/data-police-shootings/master/v2/fatal-police-shootings-data.csv")
+```
+
+### Task 5: View your data
+
+```{r}
+fatal <- as_tibble(fatal_raw)
+fatal
+```
+
+
+#### Task 5-a: View the top of your data using the `head` function
+
+```{r}
+head(fatal)
+```
+
+#### Task 5-a: Change the number of observations viewed by adding `n` to the `head` function
+
+```{r}
+head(fatal, n=10)
+```
+
+#### Task 5-b: View the bottom of your data using the `tail` function
+
+```{r}
+tail(fatal)
+```

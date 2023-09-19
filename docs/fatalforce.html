@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Nathan Alexander, PhD - teaching</title>
+<title>Nathan Alexander, PhD - Fatal Force</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -19,6 +19,40 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -84,7 +118,7 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./teaching.html" rel="" target="" aria-current="page">
+    <a class="nav-link" href="./teaching.html" rel="" target="">
  <span class="menu-text">Teaching</span></a>
   </li>  
   <li class="nav-item">
@@ -113,8 +147,15 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#current-courses" id="toc-current-courses" class="nav-link active" data-scroll-target="#current-courses">Current courses</a></li>
-  <li><a href="#previous-courses" id="toc-previous-courses" class="nav-link" data-scroll-target="#previous-courses">Previous courses</a></li>
+  <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction">Introduction</a>
+  <ul class="collapse">
+  <li><a href="#task-0-preliminaries" id="toc-task-0-preliminaries" class="nav-link" data-scroll-target="#task-0-preliminaries">Task 0: Preliminaries</a></li>
+  <li><a href="#task-1-launch-a-new-project" id="toc-task-1-launch-a-new-project" class="nav-link" data-scroll-target="#task-1-launch-a-new-project">Task 1: Launch a new project</a></li>
+  <li><a href="#task-2-load-your-packages" id="toc-task-2-load-your-packages" class="nav-link" data-scroll-target="#task-2-load-your-packages">Task 2: Load your packages</a></li>
+  <li><a href="#task-3-load-your-libraries" id="toc-task-3-load-your-libraries" class="nav-link" data-scroll-target="#task-3-load-your-libraries">Task 3: Load your libraries</a></li>
+  <li><a href="#task-4-import-your-data" id="toc-task-4-import-your-data" class="nav-link" data-scroll-target="#task-4-import-your-data">Task 4: Import your data</a></li>
+  <li><a href="#task-5-view-your-data" id="toc-task-5-view-your-data" class="nav-link" data-scroll-target="#task-5-view-your-data">Task 5: View your data</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -123,7 +164,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">teaching</h1>
+<h1 class="title">Fatal Force</h1>
 </div>
 
 
@@ -138,50 +179,57 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<section id="current-courses" class="level2">
-<h2 class="anchored" data-anchor-id="current-courses">Current courses</h2>
-<section id="statistically-measuring-and-modeling-social-justice-in-r" class="level4">
-<h4 class="anchored" data-anchor-id="statistically-measuring-and-modeling-social-justice-in-r">- <a href="https://data-202.github.io/fa23/">Statistically Measuring and Modeling Social Justice (in R)</a></h4>
+<section id="introduction" class="level2">
+<h2 class="anchored" data-anchor-id="introduction">Introduction</h2>
+<p>The <code>Fatal Force</code> branch project is one of the core data explorations for our lab members.</p>
+<p>We are integrating a critical modeling theory (CMT) with a few different data sets to develop a database that will allow our current and future lab members to answer questions about racialized systems, history, and policing at various levels.</p>
+<p>Here, we offer introductory code used to welcome new members to our lab. Shout out to new members!</p>
+<section id="task-0-preliminaries" class="level3">
+<h3 class="anchored" data-anchor-id="task-0-preliminaries">Task 0: Preliminaries</h3>
+<p>Before any data tasks, you will need to develop a practice to developing your expertise for our project. The best way to do this is to progressively build your understanding of the research literature in this area. Please take 5 minutes to read through a new annotation <a href="https://docs.google.com/document/d/1Px7ZqAVGPz_B2i2vURRxIhVweMLPIyiX8fGLKRArhjY/edit?usp=drive_link">here</a>.</p>
+</section>
+<section id="task-1-launch-a-new-project" class="level3">
+<h3 class="anchored" data-anchor-id="task-1-launch-a-new-project">Task 1: Launch a new project</h3>
+<p>First, we’ll generate a new project. Please open your RStudio IDE.</p>
+<p>Navigate to the following: File &gt; New Project</p>
+<p>A new window will open. In this new window, you will need to name your project. As a group, we decided to name the project `fatalv2’ (thanks, Kyshan!) since we will be analyzing the second version of the fatal force data set.</p>
+<section id="task-1-a-clear-objects-from-your-envioronment" class="level4">
+<h4 class="anchored" data-anchor-id="task-1-a-clear-objects-from-your-envioronment">Task 1-a: Clear objects from your envioronment</h4>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">rm</span>(<span class="at">list=</span><span class="fu">ls</span>())</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
 </section>
 </section>
-<section id="previous-courses" class="level2">
-<h2 class="anchored" data-anchor-id="previous-courses">Previous courses</h2>
-<p>For access to any previous course materials, please contact me via email.</p>
-<section id="advanced-probability-and-statistics" class="level4">
-<h4 class="anchored" data-anchor-id="advanced-probability-and-statistics">- Advanced Probability and Statistics</h4>
+<section id="task-2-load-your-packages" class="level3">
+<h3 class="anchored" data-anchor-id="task-2-load-your-packages">Task 2: Load your packages</h3>
+<p>If you haven’t already, you’ll need to load the tidyverse package.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="fu">install.packages</span>(<span class="st">"tidyverse"</span>, <span class="at">repos =</span> <span class="st">"http://cran.us.r-project.org"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
 </section>
-<section id="applied-educational-statistics-in-stata" class="level4">
-<h4 class="anchored" data-anchor-id="applied-educational-statistics-in-stata">- Applied Educational Statistics (in Stata)</h4>
+<section id="task-3-load-your-libraries" class="level3">
+<h3 class="anchored" data-anchor-id="task-3-load-your-libraries">Task 3: Load your libraries</h3>
+<p>We will use a set of specific libraries in the packages that we just loaded. In the <code>tidyverse</code> package, there are some libraries that we’ll need to bring in our data as a .csv file; so we’ll load the entire library.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tidyverse)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
 </section>
-<section id="basic-statistics-in-r" class="level4">
-<h4 class="anchored" data-anchor-id="basic-statistics-in-r">- Basic Statistics (in R)</h4>
+<section id="task-4-import-your-data" class="level3">
+<h3 class="anchored" data-anchor-id="task-4-import-your-data">Task 4: Import your data</h3>
+<p>Please navigate to the website for the raw code that we’ll bring into R.</p>
+<p>We want to bring data directly in from the github repository</p>
+<p>This data is from the GitHub for Washington Post[^1]. [^1]: https://github.com/washingtonpost</p>
 </section>
-<section id="calculus-i" class="level4">
-<h4 class="anchored" data-anchor-id="calculus-i">- Calculus I</h4>
-</section>
-<section id="college-algebra-and-precalculus" class="level4">
-<h4 class="anchored" data-anchor-id="college-algebra-and-precalculus">- College Algebra and Precalculus</h4>
-</section>
-<section id="curriculum-and-instruction-in-mathematics" class="level4">
-<h4 class="anchored" data-anchor-id="curriculum-and-instruction-in-mathematics">- Curriculum and Instruction in Mathematics</h4>
-</section>
-<section id="classroom-interactions-in-science-and-mathematics" class="level4">
-<h4 class="anchored" data-anchor-id="classroom-interactions-in-science-and-mathematics">- Classroom Interactions in Science and Mathematics</h4>
-</section>
-<section id="discrete-mathematics" class="level4">
-<h4 class="anchored" data-anchor-id="discrete-mathematics">- Discrete Mathematics</h4>
-</section>
-<section id="ethnomathematics" class="level4">
-<h4 class="anchored" data-anchor-id="ethnomathematics">- Ethnomathematics</h4>
-</section>
-<section id="introduction-to-statistics" class="level4">
-<h4 class="anchored" data-anchor-id="introduction-to-statistics">- Introduction to Statistics</h4>
-</section>
-<section id="teaching-for-diversity-and-social-justice" class="level4">
-<h4 class="anchored" data-anchor-id="teaching-for-diversity-and-social-justice">- Teaching for Diversity and Social Justice</h4>
-</section>
-<section id="youth-participatory-action-research-seminar-in-excel" class="level4">
-<h4 class="anchored" data-anchor-id="youth-participatory-action-research-seminar-in-excel">- Youth Participatory Action Research Seminar (in Excel)</h4>
+<section id="task-5-view-your-data" class="level3">
+<h3 class="anchored" data-anchor-id="task-5-view-your-data">Task 5: View your data</h3>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>fatal <span class="ot">&lt;-</span> <span class="fu">as.tibble</span>(fatal_raw)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: `as.tibble()` was deprecated in tibble 2.0.0.
+ℹ Please use `as_tibble()` instead.
+ℹ The signature and semantics have changed, see `?as_tibble`.</code></pre>
+</div>
+</div>
 
 
 </section>

@@ -18,7 +18,7 @@
     "href": "projects.html",
     "title": "research",
     "section": "",
-    "text": "Our lab integrates history and sociology to consider problems of injustice.\nLearn more about our forthcoming data projects at The Quant Shop."
+    "text": "Our lab integrates history and sociology to consider problems of injustice."
   },
   {
     "objectID": "index.html",
@@ -33,5 +33,96 @@
     "title": "resources",
     "section": "",
     "text": "Resources coming soon. If you have any suggestions, please send them my way!"
+  },
+  {
+    "objectID": "fatalforce.html",
+    "href": "fatalforce.html",
+    "title": "Fatal Force",
+    "section": "",
+    "text": "The Fatal Force branch project is one of the core data explorations for our lab members.\nWe are integrating a critical modeling theory (CMT) with a few different data sets to develop a database that will allow our current and future lab members to answer questions about racialized systems, history, and policing at various levels.\nHere, we offer introductory code used to welcome new members to our lab. Shout out to new members!\n\n\nBefore any data tasks, you will need to develop a practice to developing your expertise for our project. The best way to do this is to progressively build your understanding of the research literature in this area. Please take 5 minutes to read through a new annotation here.\n\n\n\nFirst, we’ll generate a new project. Please open your RStudio IDE.\nNavigate to the following: File &gt; New Project\nA new window will open. In this new window, you will need to name your project. As a group, we decided to name the project `fatalv2’ (thanks, Kyshan!) since we will be analyzing the second version of the fatal force data set.\n\n\n\nrm(list=ls())\n\n\n\n\n\nIf you haven’t already, you’ll need to load the tidyverse package.\n\ninstall.packages(\"tidyverse\", repos = \"http://cran.us.r-project.org\")\n\n\n\n\nWe will use a set of specific libraries in the packages that we just loaded. In the tidyverse package, there are some libraries that we’ll need to bring in our data as a .csv file; so we’ll load the entire library.\n\nlibrary(tidyverse)\n\n\n\n\nPlease navigate to the website for the raw code that we’ll bring into R.\nWe want to bring data directly in from the github repository\nThis data is from the GitHub for Washington Post[^1]. [^1]: https://github.com/washingtonpost\n\n\n\n\nfatal &lt;- as.tibble(fatal_raw)\n\nWarning: `as.tibble()` was deprecated in tibble 2.0.0.\nℹ Please use `as_tibble()` instead.\nℹ The signature and semantics have changed, see `?as_tibble`."
+  },
+  {
+    "objectID": "fatalforce.html#fatal-shootings",
+    "href": "fatalforce.html#fatal-shootings",
+    "title": "fatalforce",
+    "section": "",
+    "text": "This Fatal Shootings project is one of the core projects for our lab. We are integrating a few different datasets to develop a database that will allow our current future lab members to answer questions about policing systems at various levels.\nHere, I offer you with some sample code to make sense of our research."
+  },
+  {
+    "objectID": "fatalforce.html#fatal-force",
+    "href": "fatalforce.html#fatal-force",
+    "title": "fatalforce",
+    "section": "",
+    "text": "The Fatal Force branch project is one of the core data explorations for our lab.\nWe are integrating a critical modeling theory (CMT) with a few different data sets to develop a database that will allow our current and future lab members to answer questions about racialized systems, history, and policing at various levels.\nHere, we offer you with some of the sample code that is used to welcome new members to our lab. Shout out to our new members! If you have questions, reach out to us."
+  },
+  {
+    "objectID": "fatalforce.html#introduction",
+    "href": "fatalforce.html#introduction",
+    "title": "Fatal Force",
+    "section": "",
+    "text": "The Fatal Force branch project is one of the core data explorations for our lab members.\nWe are integrating a critical modeling theory (CMT) with a few different data sets to develop a database that will allow our current and future lab members to answer questions about racialized systems, history, and policing at various levels.\nHere, we offer introductory code used to welcome new members to our lab. Shout out to new members!\n\n\nBefore any data tasks, you will need to develop a practice to developing your expertise for our project. The best way to do this is to progressively build your understanding of the research literature in this area. Please take 5 minutes to read through a new annotation here.\n\n\n\nFirst, we’ll generate a new project. Please open your RStudio IDE.\nNavigate to the following: File &gt; New Project\nA new window will open. In this new window, you will need to name your project. As a group, we decided to name the project `fatalv2’ (thanks, Kyshan!) since we will be analyzing the second version of the fatal force data set.\n\n\n\nrm(list=ls())\n\n\n\n\n\nIf you haven’t already, you’ll need to load the tidyverse package.\n\ninstall.packages(\"tidyverse\", repos = \"http://cran.us.r-project.org\")\n\n\n\n\nWe will use a set of specific libraries in the packages that we just loaded. In the tidyverse package, there are some libraries that we’ll need to bring in our data as a .csv file; so we’ll load the entire library.\n\nlibrary(tidyverse)\n\n\n\n\nPlease navigate to the website for the raw code that we’ll bring into R.\nWe want to bring data directly in from the github repository\nThis data is from the GitHub for Washington Post[^1]. [^1]: https://github.com/washingtonpost\n\n\n\n\nfatal &lt;- as.tibble(fatal_raw)\n\nWarning: `as.tibble()` was deprecated in tibble 2.0.0.\nℹ Please use `as_tibble()` instead.\nℹ The signature and semantics have changed, see `?as_tibble`."
+  },
+  {
+    "objectID": "index.html#education",
+    "href": "index.html#education",
+    "title": "Welcome all.",
+    "section": "",
+    "text": "Columbia University, PhD, 2015\nColumbia University, MS, 2011\nNew York University, MA, 2008\nUniversity of North Carolina at Chapel Hill, BA, 2007\nNational University of Singapore, Exchange Student, 2005"
+  },
+  {
+    "objectID": "index.html#experience",
+    "href": "index.html#experience",
+    "title": "Welcome all.",
+    "section": "",
+    "text": "I have been a teacher for more than 15 years. Currently, I am on the faculty at Howard University, where I hold a dual appointment in the School of Education and the Center for Applied Data Science and Analytics (CADSA). Most recently, I was a member of the mathematics faculty at Morehouse College in Atlanta, GA. Prior to my time in Atlanta, I was a professor of mathematics and statistics education at the University of San Francisco, a high school mathematics teacher in Oakland, CA, and a visiting scholar and GSI at UC Berkeley.\nI am also the founding director of the Quantitative Histories Workshop, a community-centered teaching and learning lab for students and faculty, especially those at Historically Black Colleges and Universities (HBCUs). If you are interested in learning more, complete this form. You can view my other website at professornaite.com."
+  },
+  {
+    "objectID": "projects.html#fatal-force",
+    "href": "projects.html#fatal-force",
+    "title": "research",
+    "section": "Fatal Force",
+    "text": "Fatal Force\nGet an introduction to our fatal force analysis by clicking here."
+  },
+  {
+    "objectID": "projects.html#the-quant-shop",
+    "href": "projects.html#the-quant-shop",
+    "title": "research",
+    "section": "The Quant Shop",
+    "text": "The Quant Shop\nLearn more about our forthcoming projects by visiting The Quant Shop."
+  },
+  {
+    "objectID": "fatalforce.html#task-0-preliminaries",
+    "href": "fatalforce.html#task-0-preliminaries",
+    "title": "Fatal Force",
+    "section": "Task 0: Preliminaries",
+    "text": "Task 0: Preliminaries\nBefore any data tasks, you will need to develop a practice to developing your expertise for our project. The best way to do this is to progressively build your understanding of the research literature in this area. Please take 5 minutes to read through a new annotation here."
+  },
+  {
+    "objectID": "fatalforce.html#task-1-launch-a-new-project",
+    "href": "fatalforce.html#task-1-launch-a-new-project",
+    "title": "Fatal Force",
+    "section": "Task 1: Launch a new project",
+    "text": "Task 1: Launch a new project\nFirst, we’ll generate a new project. Please open your RStudio IDE.\nNavigate to the following: File &gt; New Project\nA new window will open. In this new window, you will need to name your project. As a group, we decided to name the project `fatalv2’ (thanks, Kyshan!) since we will be analyzing the second version of the fatal force data set."
+  },
+  {
+    "objectID": "fatalforce.html#task-2-load-your-packages",
+    "href": "fatalforce.html#task-2-load-your-packages",
+    "title": "Fatal Force",
+    "section": "Task 2: Load your packages",
+    "text": "Task 2: Load your packages\nIf you haven’t already, you’ll need to load the tidyverse package."
+  },
+  {
+    "objectID": "fatalforce.html#task-3-load-your-libraries",
+    "href": "fatalforce.html#task-3-load-your-libraries",
+    "title": "Fatal Force",
+    "section": "Task 3: Load your libraries",
+    "text": "Task 3: Load your libraries\nWe will use a set of specific libraries in the packages that we just loaded. In the tidyverse package, there are some libraries that we’ll need to bring in our data as a .csv file; so we’ll load the entire library."
+  },
+  {
+    "objectID": "fatalforce.html#task-4-import-your-data",
+    "href": "fatalforce.html#task-4-import-your-data",
+    "title": "Fatal Force",
+    "section": "Task 4: Import your data",
+    "text": "Task 4: Import your data\nPlease navigate to the website for the raw code that we’ll bring into R.\nWe want to bring data directly in from the github repository\nThis data is from the GitHub for Washington Post[^1]. [^1]: https://github.com/washingtonpost\nNow that you have imported your data. Please head over to the step 1 files, which willl allow us to do some initial checks on our data set and set up a plan of analysis for the rest of the introduction to the data."
   }
 ]

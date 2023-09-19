@@ -4,4 +4,8 @@ title: "research"
 
 Our lab integrates history and sociology to consider problems of injustice.
 
-Learn more about our forthcoming data projects at [The Quant Shop](https://github.com/quant-shop).
+## Fatal Force
+Get an introduction to our `fatal force` analysis by clicking [here](fatalforce.html).
+
+## The Quant Shop
+Learn more about our forthcoming projects by visiting [The Quant Shop](https://github.com/quant-shop).
