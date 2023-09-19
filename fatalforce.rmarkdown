@@ -3,6 +3,7 @@ title: "Fatal Force"
 subtitle: "Written by Nathan Alexander and Hye Ryeon Jang"
 ---
 
+
 ## Introduction
 The `Fatal Force` branch project is one of the core data explorations for our lab members. 
 
@@ -24,13 +25,16 @@ A new window will open. In this new window, you will need to name your project. 
 
 #### Task 1-a: Clear objects from your envioronment
 
+
 ```{r}
 rm(list=ls())
 ```
 
 
+
 ### Task 2: Load your packages
 If you haven't already, you'll need to load the tidyverse package.
+
 
 ```{r}
 #| echo: true
@@ -39,8 +43,10 @@ If you haven't already, you'll need to load the tidyverse package.
 install.packages("tidyverse", repos = "http://cran.us.r-project.org")
 ```
 
+
 ### Task 3: Load your libraries
 We will use a set of specific libraries in the packages that we just loaded. In the `tidyverse` package, there are some libraries that we'll need to bring in our data as a .csv file; so we'll load the entire library.
+
 
 ```{r}
 #| echo: true
@@ -48,6 +54,7 @@ We will use a set of specific libraries in the packages that we just loaded. In 
 #| warning: false
 library(tidyverse)
 ```
+
 
 ### Task 4: Import your data
 
@@ -58,6 +65,7 @@ We want to bring data directly in from the github repository
 This data is from the GitHub for Washington Post[^1].
 [^1]: https://github.com/washingtonpost
 
+
 ```{r}
 #| echo: true
 #| output: false
@@ -66,7 +74,9 @@ This data is from the GitHub for Washington Post[^1].
 fatal_raw <- read.csv("https://raw.githubusercontent.com/washingtonpost/data-police-shootings/master/v2/fatal-police-shootings-data.csv")
 ```
 
+
 ### Task 5: View your data
+
 
 ```{r}
 fatal <- as_tibble(fatal_raw)
@@ -74,31 +84,41 @@ fatal
 ```
 
 
+
 #### Task 5-a: View the top of your data using the `head` function
+
 
 ```{r}
 head(fatal)
 ```
 
+
 #### Task 5-a: Change the observations viewed by adding `n` to `head` function
+
 
 ```{r}
 head(fatal, n=10)
 ```
 
+
 #### Task 5-b: View the bottom of your data using the `tail` function
+
 
 ```{r}
 tail(fatal)
 ```
 
+
 #### Task 5-b: Change the observations viewed by adding `n` to `tail` function
+
 
 ```{r}
 tail(fatal, n=10)
 ```
 
+
 #### Task 6: Get a summary of your data
+
 
 ```{r}
 summary(fatal)
@@ -106,62 +126,80 @@ summary(fatal)
 
 
 
+
 #### Task 7: Get a glimpse of your data
+
 
 ```{r}
 glimpse(fatal)
 ```
 
+
 #### Task 8: Get the dimensions of your data
+
 
 ```{r}
 dim(fatal)
 ```
 
+
 #### Task 9: Select a numeric varaible to get a summary
+
 
 ```{r}
 summary(fatal$age)
 ```
 
+
 Take note of the missing values. This tells us we need to clean up our data a bit.
 
 #### Task 10: Drop missing values over the entire data set
+
 
 ```{r}
 fatal <- na.omit(fatal)
 summary(fatal$age)
 ```
 
+
 #### Task 11: Take another look at your data
 
 What main differences do you notice in the summary of your data?
+
 
 ```{r}
 summary(fatal)
 ```
 
+
 #### Task 12: Get a tabular summary of a logic variable
+
 
 ```{r}
 table(fatal$body_camera)
 ```
 
+
 #### Task 13: Get a tabular summary of a categorical variable
+
 
 
 ```{r}
 table(fatal$gender)
 ```
 
+
 #### Task 14: Create a histogram of the age variable
+
 
 
 ```{r}
 hist(fatal$age)
 ```
 
+
 #### Task 15: Improve your histogram with some addtiional code
+
 
 ```{r}
 hist(fatal$age,
@@ -171,7 +209,9 @@ abline(h = 0, col = "gray60")
 box()
 ```
 
+
 #### Task 16: View a density plot of the age variable
+
 
 ```{r}
 plot(density(fatal$age),
@@ -181,14 +221,18 @@ box()
 ```
 
 
+
 #### Task 17: View a boxplot of the age varaible
+
 
 ```{r}
  boxplot(fatal$age,
         ylab = "Age of Police Shooting Victims")
 ```
 
+
 #### Task 18: Make a fancier boxplot
+
 
 ```{r}
  boxplot(fatal$age,
@@ -197,7 +241,9 @@ box()
 ```
 
 
+
 #### Task 19: What does the below code provide?
+
 
 ```{r}
 boxplot(fatal$age~fatal$threat_level,
@@ -207,7 +253,9 @@ boxplot(fatal$age~fatal$threat_level,
 box()
 ```
 
+
 #### Task 20: Create a table of a qualitative variable
+
 
 ```{r}
  race <- table(fatal$race)
@@ -215,7 +263,9 @@ barplot(race)
 ```
 
 
+
 #### Group task: Lets work on fixing this chart together
+
 
 ```{r}
 
