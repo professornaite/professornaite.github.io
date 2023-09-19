@@ -219,19 +219,102 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <p>Please navigate to the website for the raw code that we’ll bring into R.</p>
 <p>We want to bring data directly in from the github repository</p>
 <p>This data is from the GitHub for Washington Post[^1]. [^1]: https://github.com/washingtonpost</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="co"># import your data using the read.csv command</span></span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>fatal_raw <span class="ot">&lt;-</span> <span class="fu">read.csv</span>(<span class="st">"https://raw.githubusercontent.com/washingtonpost/data-police-shootings/master/v2/fatal-police-shootings-data.csv"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
 </section>
 <section id="task-5-view-your-data" class="level3">
 <h3 class="anchored" data-anchor-id="task-5-view-your-data">Task 5: View your data</h3>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>fatal <span class="ot">&lt;-</span> <span class="fu">as.tibble</span>(fatal_raw)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stderr">
-<pre><code>Warning: `as.tibble()` was deprecated in tibble 2.0.0.
-ℹ Please use `as_tibble()` instead.
-ℹ The signature and semantics have changed, see `?as_tibble`.</code></pre>
+<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>fatal <span class="ot">&lt;-</span> <span class="fu">as_tibble</span>(fatal_raw)</span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>fatal</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 8,743 × 19
+      id date     threat_type flee_status armed_with city  county state latitude
+   &lt;int&gt; &lt;chr&gt;    &lt;chr&gt;       &lt;chr&gt;       &lt;chr&gt;      &lt;chr&gt; &lt;chr&gt;  &lt;chr&gt;    &lt;dbl&gt;
+ 1     3 2015-01… point       not         gun        Shel… Mason  WA        47.2
+ 2     4 2015-01… point       not         gun        Aloha Washi… OR        45.5
+ 3     5 2015-01… move        not         unarmed    Wich… Sedgw… KS        37.7
+ 4     8 2015-01… point       not         replica    San … San F… CA        37.8
+ 5     9 2015-01… point       not         other      Evans Weld   CO        40.4
+ 6    11 2015-01… attack      not         gun        Guth… Logan  OK        35.9
+ 7    13 2015-01… shoot       car         gun        Chan… Maric… AZ        33.3
+ 8    15 2015-01… point       not         gun        Assa… Saline KS        38.7
+ 9    16 2015-01… accident    not         unarmed    Burl… Des M… IA        40.8
+10    17 2015-01… point       not         replica    Knox… Alleg… PA        40.4
+# ℹ 8,733 more rows
+# ℹ 10 more variables: longitude &lt;dbl&gt;, location_precision &lt;chr&gt;, name &lt;chr&gt;,
+#   age &lt;int&gt;, gender &lt;chr&gt;, race &lt;chr&gt;, race_source &lt;chr&gt;,
+#   was_mental_illness_related &lt;chr&gt;, body_camera &lt;chr&gt;, agency_ids &lt;chr&gt;</code></pre>
+</div>
+</div>
+<section id="task-5-a-view-the-top-of-your-data-using-the-head-function" class="level4">
+<h4 class="anchored" data-anchor-id="task-5-a-view-the-top-of-your-data-using-the-head-function">Task 5-a: View the top of your data using the <code>head</code> function</h4>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="fu">head</span>(fatal)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 6 × 19
+     id date      threat_type flee_status armed_with city  county state latitude
+  &lt;int&gt; &lt;chr&gt;     &lt;chr&gt;       &lt;chr&gt;       &lt;chr&gt;      &lt;chr&gt; &lt;chr&gt;  &lt;chr&gt;    &lt;dbl&gt;
+1     3 2015-01-… point       not         gun        Shel… Mason  WA        47.2
+2     4 2015-01-… point       not         gun        Aloha Washi… OR        45.5
+3     5 2015-01-… move        not         unarmed    Wich… Sedgw… KS        37.7
+4     8 2015-01-… point       not         replica    San … San F… CA        37.8
+5     9 2015-01-… point       not         other      Evans Weld   CO        40.4
+6    11 2015-01-… attack      not         gun        Guth… Logan  OK        35.9
+# ℹ 10 more variables: longitude &lt;dbl&gt;, location_precision &lt;chr&gt;, name &lt;chr&gt;,
+#   age &lt;int&gt;, gender &lt;chr&gt;, race &lt;chr&gt;, race_source &lt;chr&gt;,
+#   was_mental_illness_related &lt;chr&gt;, body_camera &lt;chr&gt;, agency_ids &lt;chr&gt;</code></pre>
+</div>
+</div>
+</section>
+<section id="task-5-a-change-the-number-of-observations-viewed-by-adding-n-to-the-head-function" class="level4">
+<h4 class="anchored" data-anchor-id="task-5-a-change-the-number-of-observations-viewed-by-adding-n-to-the-head-function">Task 5-a: Change the number of observations viewed by adding <code>n</code> to the <code>head</code> function</h4>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb9"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="fu">head</span>(fatal, <span class="at">n=</span><span class="dv">10</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 10 × 19
+      id date     threat_type flee_status armed_with city  county state latitude
+   &lt;int&gt; &lt;chr&gt;    &lt;chr&gt;       &lt;chr&gt;       &lt;chr&gt;      &lt;chr&gt; &lt;chr&gt;  &lt;chr&gt;    &lt;dbl&gt;
+ 1     3 2015-01… point       not         gun        Shel… Mason  WA        47.2
+ 2     4 2015-01… point       not         gun        Aloha Washi… OR        45.5
+ 3     5 2015-01… move        not         unarmed    Wich… Sedgw… KS        37.7
+ 4     8 2015-01… point       not         replica    San … San F… CA        37.8
+ 5     9 2015-01… point       not         other      Evans Weld   CO        40.4
+ 6    11 2015-01… attack      not         gun        Guth… Logan  OK        35.9
+ 7    13 2015-01… shoot       car         gun        Chan… Maric… AZ        33.3
+ 8    15 2015-01… point       not         gun        Assa… Saline KS        38.7
+ 9    16 2015-01… accident    not         unarmed    Burl… Des M… IA        40.8
+10    17 2015-01… point       not         replica    Knox… Alleg… PA        40.4
+# ℹ 10 more variables: longitude &lt;dbl&gt;, location_precision &lt;chr&gt;, name &lt;chr&gt;,
+#   age &lt;int&gt;, gender &lt;chr&gt;, race &lt;chr&gt;, race_source &lt;chr&gt;,
+#   was_mental_illness_related &lt;chr&gt;, body_camera &lt;chr&gt;, agency_ids &lt;chr&gt;</code></pre>
+</div>
+</div>
+</section>
+<section id="task-5-b-view-the-bottom-of-your-data-using-the-tail-function" class="level4">
+<h4 class="anchored" data-anchor-id="task-5-b-view-the-bottom-of-your-data-using-the-tail-function">Task 5-b: View the bottom of your data using the <code>tail</code> function</h4>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb11"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="fu">tail</span>(fatal)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 6 × 19
+     id date      threat_type flee_status armed_with city  county state latitude
+  &lt;int&gt; &lt;chr&gt;     &lt;chr&gt;       &lt;chr&gt;       &lt;chr&gt;      &lt;chr&gt; &lt;chr&gt;  &lt;chr&gt;    &lt;dbl&gt;
+1  9490 2023-09-… shoot       ""          gun        ""    Green… SC        34.8
+2  9492 2023-09-… move        "car"       vehicle    "Pro… Provi… RI        41.8
+3  9487 2023-09-… threat      "car"       gun        "Woo… Tyler  TX        NA  
+4  9488 2023-09-… attack      ""          blunt_obj… "Joh… Fulton NY        NA  
+5  9491 2023-09-… attack      "other"     unarmed    "Hoo… Humbo… CA        NA  
+6  9489 2023-09-… threat      "car"       gun        "Ind… Marion IN        39.7
+# ℹ 10 more variables: longitude &lt;dbl&gt;, location_precision &lt;chr&gt;, name &lt;chr&gt;,
+#   age &lt;int&gt;, gender &lt;chr&gt;, race &lt;chr&gt;, race_source &lt;chr&gt;,
+#   was_mental_illness_related &lt;chr&gt;, body_camera &lt;chr&gt;, agency_ids &lt;chr&gt;</code></pre>
 </div>
 </div>
 
 
+</section>
 </section>
 </section>
 
