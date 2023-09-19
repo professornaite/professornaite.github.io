@@ -197,17 +197,7 @@ box()
 ```
 
 
-#### Task 19: What does the below code provide?
-
-```{r}
-boxplot(fatal$age~fatal$threat_level,
-        ylab = "Age of Police Shooting Victims ",
-        xlab = "Level of Threat",
-        col = c("magenta", "purple", "cyan2"))
-box()
-```
-
-#### Task 20: Create a table of a qualitative variable
+#### Task 19: Create a table of a qualitative variable
 
 ```{r}
  race <- table(fatal$race)
