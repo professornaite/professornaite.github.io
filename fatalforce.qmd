@@ -1,5 +1,6 @@
 ---
 title: "Fatal Force"
+subtitle: "Written by Nathan Alexander and Hye Ryeon Jang"
 ---
 
 ## Introduction
@@ -90,3 +91,71 @@ head(fatal, n=10)
 ```{r}
 tail(fatal)
 ```
+
+#### Task 5-b: Change the number of observations viewed by adding `n` to the `tail` function
+
+```{r}
+tail(fatal, n=10)
+```
+
+#### Task 6: Get a summary of your data
+
+```{r}
+summary(fatal)
+```
+
+
+#### Task 7: Get the dimensions of your data
+
+```{r}
+dim(fatal)
+```
+
+#### Task 8:
+
+
+```{r}
+
+```
+
+#### Task 9:
+
+
+```{r}
+
+```
+
+
+#### Task 10:
+
+```{r}
+
+```
+
+#### Task 11:
+
+```{r}
+
+```
+
+#### Task 12:
+
+```{r}
+
+```
+
+#### Task 13:
+
+
+```{r}
+
+```
+
+#### Task 14:
+
+
+```{r}
+
+```
+
+#### Task 15
