@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.353">
+<meta name="generator" content="quarto-1.3.450">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -89,7 +89,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
     "search-detached-cancel-button-title": "Cancel",
-    "search-submit-button-title": "Submit"
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
   }
 }</script>
 
@@ -129,10 +130,14 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <a class="nav-link" href="./resources.html" rel="" target="">
  <span class="menu-text">Resources</span></a>
   </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./talk.html" rel="" target="">
+ <span class="menu-text">Talk</span></a>
+  </li>  
 </ul>
             <div class="quarto-navbar-tools ms-auto">
-    <a href="https://twitter.com/professornaite" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-twitter"></i></a>
-    <a href="https://github.com/professornaite" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-github"></i></a>
+    <a href="https://twitter.com/professornaite" rel="" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-twitter"></i></a>
+    <a href="https://github.com/professornaite" rel="" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-github"></i></a>
 </div>
           </div> <!-- /navcollapse -->
       </div> <!-- /container-fluid -->
@@ -231,7 +236,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <div class="sourceCode cell-code" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>fatal <span class="ot">&lt;-</span> <span class="fu">as_tibble</span>(fatal_raw)</span>
 <span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>fatal</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
-<pre><code># A tibble: 8,749 × 19
+<pre><code># A tibble: 9,497 × 19
       id date     threat_type flee_status armed_with city  county state latitude
    &lt;int&gt; &lt;chr&gt;    &lt;chr&gt;       &lt;chr&gt;       &lt;chr&gt;      &lt;chr&gt; &lt;chr&gt;  &lt;chr&gt;    &lt;dbl&gt;
  1     3 2015-01… point       not         gun        Shel… Mason  WA        47.2
@@ -244,7 +249,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
  8    15 2015-01… point       not         gun        Assa… Saline KS        38.7
  9    16 2015-01… accident    not         unarmed    Burl… Des M… IA        40.8
 10    17 2015-01… point       not         replica    Knox… Alleg… PA        40.4
-# ℹ 8,739 more rows
+# ℹ 9,487 more rows
 # ℹ 10 more variables: longitude &lt;dbl&gt;, location_precision &lt;chr&gt;, name &lt;chr&gt;,
 #   age &lt;int&gt;, gender &lt;chr&gt;, race &lt;chr&gt;, race_source &lt;chr&gt;,
 #   was_mental_illness_related &lt;chr&gt;, body_camera &lt;chr&gt;, agency_ids &lt;chr&gt;</code></pre>
@@ -302,12 +307,12 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <pre><code># A tibble: 6 × 19
      id date      threat_type flee_status armed_with city  county state latitude
   &lt;int&gt; &lt;chr&gt;     &lt;chr&gt;       &lt;chr&gt;       &lt;chr&gt;      &lt;chr&gt; &lt;chr&gt;  &lt;chr&gt;    &lt;dbl&gt;
-1  9487 2023-09-… "threat"    "car"       gun        "Woo… Tyler  TX        NA  
-2  9488 2023-09-… "attack"    ""          blunt_obj… "Joh… Fulton NY        NA  
-3  9491 2023-09-… "attack"    "other"     unarmed    "Hoo… Humbo… CA        NA  
-4  9489 2023-09-… "threat"    "car"       gun        "Ind… Marion IN        39.7
-5  9497 2023-09-… "shoot"     ""          gun        ""    Picke… SC        35.0
-6  9500 2023-09-… ""          ""          undetermi… ""    Linco… OK        NA  
+1 10276 2024-03-… move        "not"       knife      Rio … Sacra… CA        38.7
+2 10268 2024-03-… point       ""          gun        Wate… Black… IA        42.5
+3 10269 2024-03-… undetermin… ""          knife      Tusc… Tusca… AL        33.2
+4 10270 2024-03-… threat      "not"       knife      Read… Berks  PA        40.3
+5 10271 2024-03-… threat      ""          gun        Hays… Sedgw… KS        37.6
+6 10272 2024-03-… shoot       "not"       gun        Clio  Genes… MI        43.2
 # ℹ 10 more variables: longitude &lt;dbl&gt;, location_precision &lt;chr&gt;, name &lt;chr&gt;,
 #   age &lt;int&gt;, gender &lt;chr&gt;, race &lt;chr&gt;, race_source &lt;chr&gt;,
 #   was_mental_illness_related &lt;chr&gt;, body_camera &lt;chr&gt;, agency_ids &lt;chr&gt;</code></pre>
@@ -322,16 +327,16 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <pre><code># A tibble: 10 × 19
       id date     threat_type flee_status armed_with city  county state latitude
    &lt;int&gt; &lt;chr&gt;    &lt;chr&gt;       &lt;chr&gt;       &lt;chr&gt;      &lt;chr&gt; &lt;chr&gt;  &lt;chr&gt;    &lt;dbl&gt;
- 1  9495 2023-09… "threat"    "not"       knife      "Wes… Moore  NC        35.2
- 2  9496 2023-09… ""          "car"       undetermi… "Eug… Lane   OR        44.1
- 3  9490 2023-09… "shoot"     ""          gun        ""    Green… SC        34.8
- 4  9492 2023-09… "move"      "car"       vehicle    "Pro… Provi… RI        41.8
- 5  9487 2023-09… "threat"    "car"       gun        "Woo… Tyler  TX        NA  
- 6  9488 2023-09… "attack"    ""          blunt_obj… "Joh… Fulton NY        NA  
- 7  9491 2023-09… "attack"    "other"     unarmed    "Hoo… Humbo… CA        NA  
- 8  9489 2023-09… "threat"    "car"       gun        "Ind… Marion IN        39.7
- 9  9497 2023-09… "shoot"     ""          gun        ""    Picke… SC        35.0
-10  9500 2023-09… ""          ""          undetermi… ""    Linco… OK        NA  
+ 1 10266 2024-03… undetermin… ""          undetermi… Free… Warren PA        NA  
+ 2 10284 2024-03… undetermin… ""          undetermi… Brew… Penob… ME        NA  
+ 3 10267 2024-03… move        "not"       knife      Sunn… Santa… CA        37.4
+ 4 10275 2024-03… move        "foot"      gun        Summ… Nicho… WV        NA  
+ 5 10276 2024-03… move        "not"       knife      Rio … Sacra… CA        38.7
+ 6 10268 2024-03… point       ""          gun        Wate… Black… IA        42.5
+ 7 10269 2024-03… undetermin… ""          knife      Tusc… Tusca… AL        33.2
+ 8 10270 2024-03… threat      "not"       knife      Read… Berks  PA        40.3
+ 9 10271 2024-03… threat      ""          gun        Hays… Sedgw… KS        37.6
+10 10272 2024-03… shoot       "not"       gun        Clio  Genes… MI        43.2
 # ℹ 10 more variables: longitude &lt;dbl&gt;, location_precision &lt;chr&gt;, name &lt;chr&gt;,
 #   age &lt;int&gt;, gender &lt;chr&gt;, race &lt;chr&gt;, race_source &lt;chr&gt;,
 #   was_mental_illness_related &lt;chr&gt;, body_camera &lt;chr&gt;, agency_ids &lt;chr&gt;</code></pre>
@@ -343,16 +348,16 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <div class="cell">
 <div class="sourceCode cell-code" id="cb15"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a><span class="fu">summary</span>(fatal)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
-<pre><code>       id           date           threat_type        flee_status       
- Min.   :   3   Length:8749        Length:8749        Length:8749       
- 1st Qu.:2454   Class :character   Class :character   Class :character  
- Median :4847   Mode  :character   Mode  :character   Mode  :character  
- Mean   :4819                                                           
- 3rd Qu.:7178                                                           
- Max.   :9500                                                           
-                                                                        
+<pre><code>       id            date           threat_type        flee_status       
+ Min.   :    3   Length:9497        Length:9497        Length:9497       
+ 1st Qu.: 2657   Class :character   Class :character   Class :character  
+ Median : 5249   Mode  :character   Mode  :character   Mode  :character  
+ Mean   : 5219                                                           
+ 3rd Qu.: 7787                                                           
+ Max.   :10284                                                           
+                                                                         
   armed_with            city              county             state          
- Length:8749        Length:8749        Length:8749        Length:8749       
+ Length:9497        Length:9497        Length:9497        Length:9497       
  Class :character   Class :character   Class :character   Class :character  
  Mode  :character   Mode  :character   Mode  :character   Mode  :character  
                                                                             
@@ -360,23 +365,23 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
                                                                             
                                                                             
     latitude       longitude          location_precision     name          
- Min.   :19.50   Min.   :-9.007e+15   Length:8749        Length:8749       
- 1st Qu.:33.47   1st Qu.:-1.120e+02   Class :character   Class :character  
- Median :36.09   Median :-9.400e+01   Mode  :character   Mode  :character  
- Mean   :36.64   Mean   :-1.160e+12                                        
- 3rd Qu.:40.00   3rd Qu.:-8.300e+01                                        
+ Min.   :19.50   Min.   :-9.007e+15   Length:9497        Length:9497       
+ 1st Qu.:33.46   1st Qu.:-1.120e+02   Class :character   Class :character  
+ Median :36.08   Median :-9.400e+01   Mode  :character   Mode  :character  
+ Mean   :36.64   Mean   :-1.066e+12                                        
+ 3rd Qu.:40.03   3rd Qu.:-8.300e+01                                        
  Max.   :71.30   Max.   :-6.800e+01                                        
- NA's   :984     NA's   :984                                               
-      age          gender              race           race_source       
- Min.   : 2.0   Length:8749        Length:8749        Length:8749       
- 1st Qu.:27.0   Class :character   Class :character   Class :character  
- Median :35.0   Mode  :character   Mode  :character   Mode  :character  
- Mean   :37.3                                                           
- 3rd Qu.:45.0                                                           
- Max.   :92.0                                                           
- NA's   :604                                                            
+ NA's   :1051    NA's   :1051                                              
+      age           gender              race           race_source       
+ Min.   : 2.00   Length:9497        Length:9497        Length:9497       
+ 1st Qu.:28.00   Class :character   Class :character   Class :character  
+ Median :35.00   Mode  :character   Mode  :character   Mode  :character  
+ Mean   :37.42                                                           
+ 3rd Qu.:45.00                                                           
+ Max.   :92.00                                                           
+ NA's   :387                                                             
  was_mental_illness_related body_camera         agency_ids       
- Length:8749                Length:8749        Length:8749       
+ Length:9497                Length:9497        Length:9497       
  Class :character           Class :character   Class :character  
  Mode  :character           Mode  :character   Mode  :character  
                                                                  
@@ -391,7 +396,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <div class="cell">
 <div class="sourceCode cell-code" id="cb17"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a><span class="fu">glimpse</span>(fatal)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
-<pre><code>Rows: 8,749
+<pre><code>Rows: 9,497
 Columns: 19
 $ id                         &lt;int&gt; 3, 4, 5, 8, 9, 11, 13, 15, 16, 17, 19, 21, …
 $ date                       &lt;chr&gt; "2015-01-02", "2015-01-02", "2015-01-03", "…
@@ -420,7 +425,7 @@ $ agency_ids                 &lt;chr&gt; "73", "70", "238", "196", "473", "101",
 <div class="cell">
 <div class="sourceCode cell-code" id="cb19"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a><span class="fu">dim</span>(fatal)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
-<pre><code>[1] 8749   19</code></pre>
+<pre><code>[1] 9497   19</code></pre>
 </div>
 </div>
 </section>
@@ -430,7 +435,7 @@ $ agency_ids                 &lt;chr&gt; "73", "70", "238", "196", "473", "101",
 <div class="sourceCode cell-code" id="cb21"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb21-1"><a href="#cb21-1" aria-hidden="true" tabindex="-1"></a><span class="fu">summary</span>(fatal<span class="sc">$</span>age)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>   Min. 1st Qu.  Median    Mean 3rd Qu.    Max.    NA's 
-    2.0    27.0    35.0    37.3    45.0    92.0     604 </code></pre>
+   2.00   28.00   35.00   37.42   45.00   92.00     387 </code></pre>
 </div>
 </div>
 <p>Take note of the missing values. This tells us we need to clean up our data a bit.</p>
@@ -442,7 +447,7 @@ $ agency_ids                 &lt;chr&gt; "73", "70", "238", "196", "473", "101",
 <span id="cb23-2"><a href="#cb23-2" aria-hidden="true" tabindex="-1"></a><span class="fu">summary</span>(fatal<span class="sc">$</span>age)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
-   2.00   27.00   35.00   37.28   46.00   91.00 </code></pre>
+   2.00   28.00   35.00   37.41   45.00   91.00 </code></pre>
 </div>
 </div>
 </section>
@@ -452,36 +457,36 @@ $ agency_ids                 &lt;chr&gt; "73", "70", "238", "196", "473", "101",
 <div class="cell">
 <div class="sourceCode cell-code" id="cb25"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb25-1"><a href="#cb25-1" aria-hidden="true" tabindex="-1"></a><span class="fu">summary</span>(fatal)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
-<pre><code>       id           date           threat_type        flee_status       
- Min.   :   3   Length:7276        Length:7276        Length:7276       
- 1st Qu.:2096   Class :character   Class :character   Class :character  
- Median :4306   Mode  :character   Mode  :character   Mode  :character  
- Mean   :4425                                                           
- 3rd Qu.:6544                                                           
- Max.   :9499                                                           
+<pre><code>       id            date           threat_type        flee_status       
+ Min.   :    3   Length:8130        Length:8130        Length:8130       
+ 1st Qu.: 2338   Class :character   Class :character   Class :character  
+ Median : 4782   Mode  :character   Mode  :character   Mode  :character  
+ Mean   : 4918                                                           
+ 3rd Qu.: 7219                                                           
+ Max.   :10280                                                           
   armed_with            city              county             state          
- Length:7276        Length:7276        Length:7276        Length:7276       
+ Length:8130        Length:8130        Length:8130        Length:8130       
  Class :character   Class :character   Class :character   Class :character  
  Mode  :character   Mode  :character   Mode  :character   Mode  :character  
                                                                             
                                                                             
                                                                             
     latitude       longitude          location_precision     name          
- Min.   :19.50   Min.   :-9.007e+15   Length:7276        Length:7276       
- 1st Qu.:33.49   1st Qu.:-1.120e+02   Class :character   Class :character  
- Median :36.15   Median :-9.400e+01   Mode  :character   Mode  :character  
- Mean   :36.72   Mean   :-1.238e+12                                        
- 3rd Qu.:40.05   3rd Qu.:-8.300e+01                                        
+ Min.   :19.50   Min.   :-9.007e+15   Length:8130        Length:8130       
+ 1st Qu.:33.47   1st Qu.:-1.120e+02   Class :character   Class :character  
+ Median :36.13   Median :-9.400e+01   Mode  :character   Mode  :character  
+ Mean   :36.69   Mean   :-1.108e+12                                        
+ 3rd Qu.:40.07   3rd Qu.:-8.300e+01                                        
  Max.   :71.30   Max.   :-6.800e+01                                        
       age           gender              race           race_source       
- Min.   : 2.00   Length:7276        Length:7276        Length:7276       
- 1st Qu.:27.00   Class :character   Class :character   Class :character  
+ Min.   : 2.00   Length:8130        Length:8130        Length:8130       
+ 1st Qu.:28.00   Class :character   Class :character   Class :character  
  Median :35.00   Mode  :character   Mode  :character   Mode  :character  
- Mean   :37.28                                                           
- 3rd Qu.:46.00                                                           
+ Mean   :37.41                                                           
+ 3rd Qu.:45.00                                                           
  Max.   :91.00                                                           
  was_mental_illness_related body_camera         agency_ids       
- Length:7276                Length:7276        Length:7276       
+ Length:8130                Length:8130        Length:8130       
  Class :character           Class :character   Class :character  
  Mode  :character           Mode  :character   Mode  :character  
                                                                  
@@ -497,7 +502,7 @@ $ agency_ids                 &lt;chr&gt; "73", "70", "238", "196", "473", "101",
 <div class="cell-output cell-output-stdout">
 <pre><code>
 False  True 
- 6150  1126 </code></pre>
+ 6738  1392 </code></pre>
 </div>
 </div>
 </section>
@@ -508,7 +513,7 @@ False  True
 <div class="cell-output cell-output-stdout">
 <pre><code>
                female       male non-binary 
-        11        333       6931          1 </code></pre>
+         9        368       7752          1 </code></pre>
 </div>
 </div>
 </section>
