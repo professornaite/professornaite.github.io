@@ -2,41 +2,7 @@
 title: "teaching"
 ---
 
-## Current courses
-
-#### - [Statistically Measuring and Modeling Social Justice (in R)](https://data-202.github.io/fa23/) 
-
-
-## Previous courses
-For access to any previous course materials, please contact me via email.
-
-#### - Advanced Probability and Statistics
-
-#### - Applied Educational Statistics (in Stata)
-
-#### - Basic Statistics (in R)
-
-#### - Calculus I
-
-#### - College Algebra and Precalculus
-
-#### - Curriculum and Instruction in Mathematics
-
-#### - Classroom Interactions in Science and Mathematics
-
-#### - Discrete Mathematics
-
-#### - Ethnomathematics
-
-#### - Introduction to Statistics
-
-#### - Teaching for Diversity and Social Justice
-
-#### - Youth Participatory Action Research Seminar (in Excel)
-
-
-
-
+Statistically Measuring and Modeling Social Justice
 
 
 
