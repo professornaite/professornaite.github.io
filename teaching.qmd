@@ -4,5 +4,6 @@ title: "teaching"
 
 Statistically Measuring and Modeling Social Justice
 
+Introductory Statistics
 
 
