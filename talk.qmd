@@ -8,13 +8,6 @@ institute:
   - "MS Program | Center for Applied Data Science and Analytics"
   - "nathan.alexander@Howard.edu"
 format:
-  pdf:
-    pdf:
-    toc: true
-    number-sections: true
-    colorlinks: true
-    self-contained: true
-    embed-resources: true 
   html:
     self-contained: true
     embed-resources: true
