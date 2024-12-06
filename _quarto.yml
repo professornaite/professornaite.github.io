@@ -8,6 +8,14 @@ website:
     left:
       - href: index.qmd
         text: Home
+      - href: me.qmd
+        text: About Me
+      - href: research.qmd
+        text: Research
+      - href: teaching.qmd
+        text: Teaching
+      - href: lab.qmd
+        text: Lab
     tools:
       - icon: twitter
         href: https://twitter.com/professornaite
@@ -15,11 +23,11 @@ website:
         href: https://github.com/professornaite
   page-footer:
     right: "Built with [Quarto](https://quarto.org/)"
-    left: "&copy; Copyright 2024, Nathan Alexander"
+    left: "&copy; Copyright 2025, Nathan Alexander"
 
 format:
   html:
-    theme: sketchy
+    theme: default
     toc: true
 
 editor: source
