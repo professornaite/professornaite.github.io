@@ -4,8 +4,13 @@ title: ""
 
 ## Current courses
 
-#### - [Statistically Measuring and Modeling Social Justice (in R)](https://data-202.github.io/fa23/) 
+#### - [DATA 202: Statistically Measuring and Modeling Social Justice](https://github.com/data-202) 
 
+#### - [EDUC 315: Teaching Mathematics in Grades 4-6]() 
+
+#### - [EDUC 480: International Internship]() 
+
+#### - [DATA 401: Independent Study]() 
 
 ## Previous courses
 For access to any previous course materials, please contact me via email.
