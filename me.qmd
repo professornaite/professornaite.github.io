@@ -48,8 +48,4 @@ library(ggmap)
 library(leaflet)
 ```
 
-```{r}
-1 + 1
-```
-
 
