@@ -12,6 +12,8 @@ title: ""
 
 #### - [DATA 401: Independent Study]() 
 
+#### - [DATA 802: Data Science Practicum]()
+
 ## Previous courses
 For access to any previous course materials, please contact me via email.
 
