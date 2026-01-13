@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.5.57">
+<meta name="generator" content="quarto-1.6.42">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -69,10 +69,10 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-79108a0fc1995748cbd19a5b0e3e3e7c.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -127,7 +127,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./me.html"> 
-<span class="menu-text">About Me</span></a>
+<span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./research.html"> 
@@ -136,10 +136,6 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <li class="nav-item">
     <a class="nav-link" href="./teaching.html"> 
 <span class="menu-text">Teaching</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./lab.html"> 
-<span class="menu-text">Lab</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -245,7 +241,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <div class="sourceCode cell-code" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>fatal <span class="ot">&lt;-</span> <span class="fu">as_tibble</span>(fatal_raw)</span>
 <span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>fatal</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
-<pre><code># A tibble: 10,428 × 19
+<pre><code># A tibble: 10,430 × 19
       id date     threat_type flee_status armed_with city  county state latitude
    &lt;int&gt; &lt;chr&gt;    &lt;chr&gt;       &lt;chr&gt;       &lt;chr&gt;      &lt;chr&gt; &lt;chr&gt;  &lt;chr&gt;    &lt;dbl&gt;
  1     3 2015-01… point       not         gun        Shel… Mason  WA        47.2
@@ -258,7 +254,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
  8    15 2015-01… point       not         gun        Assa… Saline KS        38.7
  9    16 2015-01… accident    not         unarmed    Burl… Des M… IA        40.8
 10    17 2015-01… point       not         replica    Knox… Alleg… PA        40.4
-# ℹ 10,418 more rows
+# ℹ 10,420 more rows
 # ℹ 10 more variables: longitude &lt;dbl&gt;, location_precision &lt;chr&gt;, name &lt;chr&gt;,
 #   age &lt;int&gt;, gender &lt;chr&gt;, race &lt;chr&gt;, race_source &lt;chr&gt;,
 #   was_mental_illness_related &lt;chr&gt;, body_camera &lt;chr&gt;, agency_ids &lt;chr&gt;</code></pre>
@@ -336,7 +332,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <pre><code># A tibble: 10 × 19
       id date     threat_type flee_status armed_with city  county state latitude
    &lt;int&gt; &lt;chr&gt;    &lt;chr&gt;       &lt;chr&gt;       &lt;chr&gt;      &lt;chr&gt; &lt;chr&gt;  &lt;chr&gt;    &lt;dbl&gt;
- 1 11289 2024-12… attack      "car"       undetermi… Lore… Crosby TX        NA  
+ 1 11289 2024-12… attack      "car"       unarmed    Lore… Crosby TX        33.7
  2 11271 2024-12… undetermin… ""          undetermi… Belc… Rolet… ND        NA  
  3 11275 2024-12… threat      ""          gun        Wood… Los A… CA        34.2
  4 11276 2024-12… undetermin… ""          undetermi… Spok… Spoka… WA        47.7
@@ -358,15 +354,15 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <div class="sourceCode cell-code" id="cb15"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a><span class="fu">summary</span>(fatal)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>       id            date           threat_type        flee_status       
- Min.   :    3   Length:10428       Length:10428       Length:10428      
+ Min.   :    3   Length:10430       Length:10430       Length:10430      
  1st Qu.: 2912   Class :character   Class :character   Class :character  
  Median : 5752   Mode  :character   Mode  :character   Mode  :character  
- Mean   : 5720                                                           
- 3rd Qu.: 8525                                                           
+ Mean   : 5721                                                           
+ 3rd Qu.: 8527                                                           
  Max.   :11295                                                           
                                                                          
   armed_with            city              county             state          
- Length:10428       Length:10428       Length:10428       Length:10428      
+ Length:10430       Length:10430       Length:10430       Length:10430      
  Class :character   Class :character   Class :character   Class :character  
  Mode  :character   Mode  :character   Mode  :character   Mode  :character  
                                                                             
@@ -374,23 +370,23 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
                                                                             
                                                                             
     latitude       longitude       location_precision     name          
- Min.   :19.50   Min.   :-160.01   Length:10428       Length:10428      
+ Min.   :19.50   Min.   :-160.01   Length:10430       Length:10430      
  1st Qu.:33.45   1st Qu.:-111.95   Class :character   Class :character  
  Median :36.06   Median : -94.19   Mode  :character   Mode  :character  
- Mean   :36.64   Mean   : -96.86                                        
- 3rd Qu.:40.04   3rd Qu.: -83.13                                        
+ Mean   :36.63   Mean   : -96.86                                        
+ 3rd Qu.:40.04   3rd Qu.: -83.12                                        
  Max.   :71.30   Max.   : -67.87                                        
- NA's   :1131    NA's   :1132                                           
+ NA's   :1140    NA's   :1141                                           
       age           gender              race           race_source       
- Min.   : 0.00   Length:10428       Length:10428       Length:10428      
+ Min.   : 0.00   Length:10430       Length:10430       Length:10430      
  1st Qu.:28.00   Class :character   Class :character   Class :character  
  Median :35.00   Mode  :character   Mode  :character   Mode  :character  
- Mean   :37.47                                                           
+ Mean   :37.46                                                           
  3rd Qu.:45.00                                                           
  Max.   :92.00                                                           
- NA's   :382                                                             
+ NA's   :372                                                             
  was_mental_illness_related body_camera         agency_ids       
- Length:10428               Length:10428       Length:10428      
+ Length:10430               Length:10430       Length:10430      
  Class :character           Class :character   Class :character  
  Mode  :character           Mode  :character   Mode  :character  
                                                                  
@@ -405,7 +401,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <div class="cell">
 <div class="sourceCode cell-code" id="cb17"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a><span class="fu">glimpse</span>(fatal)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
-<pre><code>Rows: 10,428
+<pre><code>Rows: 10,430
 Columns: 19
 $ id                         &lt;int&gt; 3, 4, 5, 8, 9, 11, 13, 15, 16, 17, 19, 21, …
 $ date                       &lt;chr&gt; "2015-01-02", "2015-01-02", "2015-01-03", "…
@@ -434,7 +430,7 @@ $ agency_ids                 &lt;chr&gt; "73", "70", "238", "196", "473", "101",
 <div class="cell">
 <div class="sourceCode cell-code" id="cb19"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a><span class="fu">dim</span>(fatal)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
-<pre><code>[1] 10428    19</code></pre>
+<pre><code>[1] 10430    19</code></pre>
 </div>
 </div>
 </section>
@@ -444,7 +440,7 @@ $ agency_ids                 &lt;chr&gt; "73", "70", "238", "196", "473", "101",
 <div class="sourceCode cell-code" id="cb21"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb21-1"><a href="#cb21-1" aria-hidden="true" tabindex="-1"></a><span class="fu">summary</span>(fatal<span class="sc">$</span>age)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>   Min. 1st Qu.  Median    Mean 3rd Qu.    Max.    NA's 
-   0.00   28.00   35.00   37.47   45.00   92.00     382 </code></pre>
+   0.00   28.00   35.00   37.46   45.00   92.00     372 </code></pre>
 </div>
 </div>
 <p>Take note of the missing values. This tells us we need to clean up our data a bit.</p>
@@ -456,7 +452,7 @@ $ agency_ids                 &lt;chr&gt; "73", "70", "238", "196", "473", "101",
 <span id="cb23-2"><a href="#cb23-2" aria-hidden="true" tabindex="-1"></a><span class="fu">summary</span>(fatal<span class="sc">$</span>age)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
-   0.00   28.00   35.00   37.43   45.00   91.00 </code></pre>
+   0.00   28.00   35.00   37.42   45.00   91.00 </code></pre>
 </div>
 </div>
 </section>
@@ -467,35 +463,35 @@ $ agency_ids                 &lt;chr&gt; "73", "70", "238", "196", "473", "101",
 <div class="sourceCode cell-code" id="cb25"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb25-1"><a href="#cb25-1" aria-hidden="true" tabindex="-1"></a><span class="fu">summary</span>(fatal)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>       id            date           threat_type        flee_status       
- Min.   :    3   Length:8985        Length:8985        Length:8985       
+ Min.   :    3   Length:8987        Length:8987        Length:8987       
  1st Qu.: 2580   Class :character   Class :character   Class :character  
- Median : 5273   Mode  :character   Mode  :character   Mode  :character  
- Mean   : 5454                                                           
- 3rd Qu.: 8437                                                           
+ Median : 5283   Mode  :character   Mode  :character   Mode  :character  
+ Mean   : 5461                                                           
+ 3rd Qu.: 8448                                                           
  Max.   :11295                                                           
   armed_with            city              county             state          
- Length:8985        Length:8985        Length:8985        Length:8985       
+ Length:8987        Length:8987        Length:8987        Length:8987       
  Class :character   Class :character   Class :character   Class :character  
  Mode  :character   Mode  :character   Mode  :character   Mode  :character  
                                                                             
                                                                             
                                                                             
     latitude       longitude       location_precision     name          
- Min.   :19.50   Min.   :-160.01   Length:8985        Length:8985       
+ Min.   :19.50   Min.   :-160.01   Length:8987        Length:8987       
  1st Qu.:33.45   1st Qu.:-111.93   Class :character   Class :character  
- Median :36.10   Median : -94.16   Mode  :character   Mode  :character  
+ Median :36.09   Median : -94.17   Mode  :character   Mode  :character  
  Mean   :36.67   Mean   : -96.78                                        
- 3rd Qu.:40.09   3rd Qu.: -83.07                                        
+ 3rd Qu.:40.09   3rd Qu.: -83.06                                        
  Max.   :71.30   Max.   : -67.87                                        
       age           gender              race           race_source       
- Min.   : 0.00   Length:8985        Length:8985        Length:8985       
+ Min.   : 0.00   Length:8987        Length:8987        Length:8987       
  1st Qu.:28.00   Class :character   Class :character   Class :character  
  Median :35.00   Mode  :character   Mode  :character   Mode  :character  
- Mean   :37.43                                                           
+ Mean   :37.42                                                           
  3rd Qu.:45.00                                                           
  Max.   :91.00                                                           
  was_mental_illness_related body_camera         agency_ids       
- Length:8985                Length:8985        Length:8985       
+ Length:8987                Length:8987        Length:8987       
  Class :character           Class :character   Class :character  
  Mode  :character           Mode  :character   Mode  :character  
                                                                  
@@ -511,7 +507,7 @@ $ agency_ids                 &lt;chr&gt; "73", "70", "238", "196", "473", "101",
 <div class="cell-output cell-output-stdout">
 <pre><code>
 False  True 
- 7399  1586 </code></pre>
+ 7395  1592 </code></pre>
 </div>
 </div>
 </section>
@@ -522,7 +518,7 @@ False  True
 <div class="cell-output cell-output-stdout">
 <pre><code>
                female       male non-binary 
-         4        410       8566          5 </code></pre>
+         4        410       8568          5 </code></pre>
 </div>
 </div>
 </section>
@@ -727,8 +723,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   });
   clipboard.on('success', onCopySuccess);
   if (window.document.getElementById('quarto-embedded-source-code-modal')) {
-    // For code content inside modals, clipBoardJS needs to be initialized with a container option
-    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
     const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
       text: getTextToCopy,
       container: window.document.getElementById('quarto-embedded-source-code-modal')
@@ -839,7 +833,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       if (window.Quarto?.typesetMath) {
         window.Quarto.typesetMath(note);
       }
-      // TODO in 1.5, we should make sure this works without a callout special case
       if (note.classList.contains("callout")) {
         return note.outerHTML;
       } else {
@@ -1069,7 +1062,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
-<p>© Copyright 2025, Nathan Alexander</p>
+<p>© Copyright 2026, Nathan Alexander</p>
 </div>   
     <div class="nav-footer-center">
       &nbsp;
