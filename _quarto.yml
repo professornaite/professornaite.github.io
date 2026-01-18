@@ -18,7 +18,7 @@ website:
         href: https://github.com/professornaite
   page-footer:
     right: "Built with [Quarto](https://quarto.org/)"
-    left: "&copy; Copyright 2026, Nathan Alexander"
+    left: "&copy; copyright 2026, nathan alexander"
 
 format:
   html:
