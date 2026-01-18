@@ -6,7 +6,7 @@ website:
   title: "nathan alexander, phd"
   navbar:
     left:
-      - href: index
+      - href: about
         text: about
       - href: projects
         text: projects
