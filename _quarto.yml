@@ -6,9 +6,9 @@ website:
   title: "nathan alexander, phd"
   navbar:
     left:
-      - href: index.qmd
+      - href: index
         text: about
-      - href: projects.qmd
+      - href: projects
         text: projects
       - href: "https://profiles.howard.edu/nathan-alexander"
         text: work
