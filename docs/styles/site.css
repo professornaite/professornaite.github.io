@@ -1,12 +1,26 @@
 /* Import Google font */
 @import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap');
 
-/* Global text: small black font on white background */
+/* Import Brygada 1918 */
+@import url('https://fonts.googleapis.com/css2?family=Brygada+1918:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+
+/* Global text: Brygada 1918 */
 html, body {
   background-color: #ffffff;
   color: #000000;
-  font-family: "Major Mono Display", monospace !important;
-  font-size: 12px;  /* adjust until it feels right */
+  font-family: "Brygada 1918", serif !important;
+  font-size: 12px;
+}
+
+/* Also override for main content containers, navbar, footer */
+.quarto-container,
+.main-content,
+.page-columns,
+.content,
+body .navbar,
+body .footer,
+body .nav-footer {
+  font-family: "Brygada 1918", serif !important;
 }
 
 /* Center the main content vertically/horizontally on the home page */
