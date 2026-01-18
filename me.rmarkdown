@@ -4,6 +4,10 @@ title: ""
 
 
 
+
+
+
+
 ## Experience
 
 I have been a teacher for more than 20 years. 
@@ -40,6 +44,10 @@ National University of Singapore
 ## Travel
 
 After living abroad for an extended period, I found traveling to be one of the best ways to learn and to learn how to teach. I have traveled to and led a host of study abroad experiences that internationalism has become a core part of my work. See some of my international travel experiences below:
+
+
+
+
 
 
 
@@ -188,3 +196,4 @@ leaflet::leaflet(trips_geo) |>
     label = ~place
   )
 ```
+

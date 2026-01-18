@@ -1,8 +1,5 @@
 ---
-title: "Welcome all."
-about:
-  id: me
-  template: broadside
-  image: img/profile2.jpg
+title: ""
 ---
 
+be back soon.

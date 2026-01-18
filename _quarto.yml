@@ -3,11 +3,13 @@ project:
   output-dir: docs
   
 website:
-  title: "Nathan Alexander, PhD"
+  title: "nathan alexander, phd"
   navbar:
     left:
       - href: index.qmd
-        text: Home
+        text: about
+      - href: projects.qmd
+        text: projects
         
     tools:
       - icon: twitter
