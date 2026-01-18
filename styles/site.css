@@ -76,3 +76,24 @@ body.page-index .main-content {
   border-top: 1px solid #ffffff;
 }
 
+/* About page: full translucent background image */
+body.fullcontent {
+  background-image: 
+    linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)),
+    url("../img/smash.jpg");
+  background-size: cover !important;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+/* Content overlay - make transparent */
+body.fullcontent .quarto-container,
+body.fullcontent .main-content {
+  background-color: transparent !important;  /* no white box */
+  backdrop-filter: none;  /* no blur */
+  padding: 2rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+

@@ -26,7 +26,7 @@ format:
   html:
     theme: default
     css: 
-      - styles/site.css     # your banner styles
+      - styles/site.css
     toc: false
 
 editor: source
