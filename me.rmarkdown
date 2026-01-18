@@ -1,0 +1,190 @@
+---
+title: ""
+---
+
+
+
+## Experience
+
+I have been a teacher for more than 20 years. 
+
+I am a member of the faculty at Howard University, where I hold a joint appointment in the School of Education and the Center for Applied Data Science and Analytics (CADSA). Before Howard, I was a member of the mathematics faculty at Morehouse College in Atlanta, GA. 
+
+Prior to Atlanta, I led a group of critical STEM educators, and taught mathematics in Oakland, CA - shoutout to OSA, LPFI, and SEO! I also taught mathematics in New York City and worked as a community educator in Brooklyn - shoutout to HCZ and Groundwork!
+
+I am also the founding director of the [*Quantitative Histories Workshop*](https://quant-shop.github.io), a community-centered teaching and learning lab for students, faculty, and community members. If you are interested in learning more or joining our work, please [reach out](https://docs.google.com/forms/d/e/1FAIpQLScKPatSYYIdgX7bkugZPoIBZGUDAwYMrrhTUmecqit3hK3d2A/viewform).
+
+## Education
+
+Columbia University 
+
+- PhD, 2015 (Mathematics and Education)
+
+Teachers College at Columbia University
+
+- MS, 2011 (Mathematics)
+
+New York University
+
+- MA, 2008 (Teaching Mathematics)
+
+University of North Carolina at Chapel Hill
+
+- BA, 2007 (Mathematics)
+- BA, 2007 (Sociology)
+
+National University of Singapore
+
+- Exchange Student, 2005 (Sociology)
+
+## Travel
+
+After living abroad for an extended period, I found traveling to be one of the best ways to learn and to learn how to teach. I have traveled to and led a host of study abroad experiences that internationalism has become a core part of my work. See some of my international travel experiences below:
+
+
+
+```{r, include = F, echo=F}
+# install.packages("ggplot2")
+# install.packages("ggmap")
+# install.packages("leaflet")
+# install.packages(c("leaflet", "tidygeocoder", "dplyr"))
+#install.packages("tibble")   # run once
+#library(tibble)
+library(leaflet)
+library(tidygeocoder)
+library(dplyr)
+library(ggplot2)
+library(ggmap)
+library(leaflet)
+
+my_trips <- data.frame(
+  place = c(
+    "Singapore",
+    "Moscow",
+    "Saint Petersburg",
+    "Bangkok",
+    "Manila",
+    "Paris",
+    "London",
+    "Rome",
+    "Florence",
+    "Milan",
+    "Cape Town",
+    "Berlin",
+    "Munich",
+    "Belize City",
+    "Dangriga",
+    "Rio de Janeiro",
+    "Vitoria",
+    "Salvador",
+    "Panama City",
+    "Quito",
+    "Mexico City",
+    "Cancun",
+    "Puerto Vallarta",
+    "Cozumel",
+    "Cali",
+    "San Basilio de Palenque",
+    "Cartagena",
+    "Medellin",
+    "Bridgetown",
+    "Kingston",
+    "Tegucigalpa",
+    "Santo Domingo",
+    "Havana",
+    "Batam",
+    "Bogota",
+    "Ciudad de Guatemala",
+    "Limon",
+    "San Jose",
+    "Vancouver",
+    "Toronto",
+    "Amsterdam",
+    "Oxford",
+    "Ho Chi Minh",
+    "Da Nang",
+    "Kuala Lumpur",
+    "Tijuana",
+    "Punta Gorda",
+    "Puerto Barrios",
+    "San Salvador",
+    "Limon"
+  ),
+  country = c(
+    "Singapore",
+    "Russia",
+    "Russia",
+    "Thailand",
+    "Philippines",
+    "France",
+    "United Kingdom",
+    "Italy",
+    "Italy",
+    "Italy",
+    "South Africa",
+    "Germany",
+    "Germany",
+    "Belize",
+    "Belize",
+    "Brazil",
+    "Brazil",
+    "Brazil",
+    "Panama",
+    "Ecuador",
+    "Mexico",
+    "Mexico",
+    "Mexico",
+    "Mexico",
+    "Colombia",
+    "Colombia",
+    "Colombia",
+    "Colombia",
+    "Barbados",
+    "Jamaica",
+    "Honduras",
+    "Dominican Republic",
+    "Cuba",
+    "Indonesia",
+    "Colombia",
+    "Guatemala",
+    "Costa Rica",
+    "Costa Rica",
+    "Canada",
+    "Canada",
+    "Nederland",
+    "England",
+    "Vietnam",
+    "Vietnam",
+    "Malaysia",
+    "Mexico",
+    "Belize",
+    "Guatemala",
+    "El Salvador",
+    "Costa Rica"
+  ),
+  stringsAsFactors = FALSE
+)
+
+trips_geo <- my_trips |>
+  dplyr::mutate(full_location = paste(place, country, sep = ", ")) |>
+  tidygeocoder::geocode(
+    full_location,
+    method = "osm",
+    lat  = lat,   # name of the latitude column to create
+    long = long   # name of the longitude column to create
+  )
+
+
+```
+
+```{r, message=F, warning=F}
+leaflet::leaflet(trips_geo) |>
+  leaflet::addTiles() |>
+  leaflet::setView(lng = 0, lat = 20, zoom = 2) |>
+  leaflet::addMarkers(
+    lng   = ~long,
+    lat   = ~lat,
+    popup = ~paste0("<b>", place, "</b>, ", country),
+    label = ~place
+  )
+```
