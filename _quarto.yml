@@ -3,7 +3,7 @@ project:
   output-dir: docs
   
 website:
-  title: "nathan alexander, ph.d."
+  title: "nathan alexander, phd"
   navbar:
     left:
       - href: about
@@ -26,8 +26,8 @@ format:
   html:
     theme: default
     css: 
-      - styles/navbar.css     # your banner styles
       - styles/home.css       # new, for home-page specifics
+      - styles/site.css     # your banner styles
     toc: false
 
 editor: source
