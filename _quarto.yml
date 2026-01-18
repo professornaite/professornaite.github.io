@@ -26,7 +26,6 @@ format:
   html:
     theme: default
     css: 
-      - styles/home.css       # new, for home-page specifics
       - styles/site.css     # your banner styles
     toc: false
 
