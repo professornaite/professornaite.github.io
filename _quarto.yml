@@ -25,7 +25,10 @@ website:
 format:
   html:
     theme: default
-    toc: true
+    css: 
+      - styles/navbar.css     # your banner styles
+      - styles/home.css       # new, for home-page specifics
+    toc: false
 
 editor: source
 

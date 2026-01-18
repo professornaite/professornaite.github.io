@@ -1,0 +1,7 @@
+format:
+  html:
+    theme: default
+    css: 
+      - styles/navbar.css     # your banner styles
+      - styles/home.css       # new, for home-page specifics
+    toc: false
