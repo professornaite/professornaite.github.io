@@ -1,0 +1,78 @@
+/* Import Google font */
+@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap');
+
+/* Import Brygada 1918 */
+@import url('https://fonts.googleapis.com/css2?family=Brygada+1918:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+
+/* Global text: Brygada 1918 */
+html, body {
+  background-color: #ffffff;
+  color: #000000;
+  font-family: "Brygada 1918", serif !important;
+  font-size: 12px;
+}
+
+/* Also override for main content containers, navbar, footer */
+.quarto-container,
+.main-content,
+.page-columns,
+.content,
+body .navbar,
+body .footer,
+body .nav-footer {
+  font-family: "Brygada 1918", serif !important;
+}
+
+/* Center the main content vertically/horizontally on the home page */
+body.index,
+body.page-index {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Ensure Quarto's container doesn't fight the centering */
+body.index .quarto-container,
+body.page-index .quarto-container,
+body.index .main-content,
+body.page-index .main-content {
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* The single central image */
+.home-photo {
+  display: block;
+  margin: 0 auto;
+  max-width: 260px;    /* tweak as desired */
+  border-radius: 0;    /* or 999px for circular */
+}
+
+/* Navbar: white bar, black text */
+.navbar {
+  background-color: #ffffff !important;
+  color: #000000 !important;
+  border-bottom: 1px solid #ffffff;
+  box-shadow: none;
+}
+
+.navbar-brand,
+.navbar-brand:hover,
+.navbar-nav .nav-link,
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.active,
+.navbar .navbar-tools .nav-link,
+.navbar .navbar-tools .bi {
+  color: #000000 !important;
+}
+
+/* Footer: white bar, black text */
+.footer,
+.nav-footer {
+  background-color: #ffffff !important;
+  color: #000000 !important;
+  border-top: 1px solid #ffffff;
+}
+
