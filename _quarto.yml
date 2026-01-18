@@ -8,8 +8,6 @@ website:
     left:
       - href: about
         text: about
-      - href: projects
-        text: projects
       - href: "https://profiles.howard.edu/nathan-alexander"
         text: work
         
