@@ -10,6 +10,8 @@ website:
         text: about
       - href: projects.qmd
         text: projects
+      - href: "https://profiles.howard.edu/nathan-alexander"
+        text: work
         
     tools:
       - icon: twitter
