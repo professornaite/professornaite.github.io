@@ -1,4 +1,4 @@
-/* Import Google font */
+/* Import mono */
 @import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap');
 
 /* Import Brygada 1918 */
@@ -12,7 +12,7 @@ html, body {
   font-size: 12px;
 }
 
-/* Also override for main content containers, navbar, footer */
+/* override for main content containers, navbar, footer */
 .quarto-container,
 .main-content,
 .page-columns,
@@ -42,7 +42,7 @@ body.page-index .main-content {
   padding: 0;
 }
 
-/* The single central image */
+/* single central image */
 .home-photo {
   display: block;
   margin: 0 auto;
@@ -95,5 +95,70 @@ body.fullcontent .main-content {
   padding: 2rem;
   max-width: 800px;
   margin: 0 auto;
+}
+
+/* Mobile: avoid full viewport centering on small screens */
+@media (max-width: 768px) {
+  body.index,
+  body.page-index {
+    min-height: auto;
+    display: block;
+  }
+
+  body.index .quarto-container,
+  body.page-index .quarto-container,
+  body.index .main-content,
+  body.page-index .main-content {
+    padding: 1.5rem 1rem;
+  }
+
+  .home-photo {
+    max-width: 80%;
+    height: auto;
+  }
+}
+
+/* Mobile: simpler background behavior on about page */
+@media (max-width: 768px) {
+  body.fullcontent {
+    background-attachment: scroll;
+    background-position: center top;
+  }
+
+  body.fullcontent .quarto-container,
+  body.fullcontent .main-content {
+    max-width: 100%;
+    padding: 1.5rem 1rem;
+    margin: 0;
+  }
+}
+
+@media (max-width: 992px) {
+  .navbar-nav .nav-link {
+    font-size: 11px;
+  }
+}
+
+/* Hamburger menu: black text and icon on mobile */
+.navbar-toggler,
+.navbar-toggler-icon {
+  color: #000000 !important;
+  background-color: #ffffff !important;
+  border-color: #000000 !important;
+}
+
+/* Collapsed menu dropdown: black text on white bg */
+.navbar-collapse .navbar-nav .nav-link {
+  color: #000000 !important;
+}
+
+.navbar-collapse .navbar-nav .nav-link:hover {
+  color: #333333 !important;
+  background-color: #f5f5f5 !important;
+}
+
+/* Collapsed menu container bg */
+.navbar-collapse {
+  background-color: #ffffff !important;
 }
 
