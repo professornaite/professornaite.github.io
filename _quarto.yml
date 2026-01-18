@@ -8,12 +8,7 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - href: me.qmd
-        text: About
-      - href: research.qmd
-        text: Research
-      - href: teaching.qmd
-        text: Teaching
+        
     tools:
       - icon: twitter
         href: https://twitter.com/professornaite

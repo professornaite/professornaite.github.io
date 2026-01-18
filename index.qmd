@@ -6,11 +6,3 @@ about:
   image: img/profile2.jpg
 ---
 
-Prof Alexander here. 
-This is my research + teaching site.
-
-In my work, I examine the role of "context" in quantification and what is meant by quantification across different contexts. I specifically focus on the role of a given *context* in probability theory, statistical data analysis, and mathematical education.
-
-In my own teaching, I attempt to create community spaces that provide opportunities for learning by doing. One of my goals is to contribute to the world by improving how we think about history and numbers, and our collective knowledge of the past, and the injustices that continue to persist in today's society.
-
-I focus my work on understanding how we can integrate theory, quantification, and mathematical thinking into conversations around local and global injustices in ways that remain critical, systems-oriented, and productive to the material lives of our neighbors, communities, and the general population.
