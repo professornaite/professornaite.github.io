@@ -62,11 +62,11 @@ library(knitr)
 
 ---
 
-Framing our time.
+[Framing our time]{style="color:orange;"}
 
 - A bit about me.
 
-- Our lab, the Quantitative Histories Workshop.
+- The work of our lab, the Quantitative Histories Workshop
 
 - *How much data do you want for your progress?*
 
@@ -264,18 +264,30 @@ I became a visiting professor in the Department of Mathematics at Morehouse Coll
 
 I also helped launch a summer research program at Morehouse for local high school students. I would teach a first course on [abstraction, mathematics, justice]{style="color:blue;"}. This program, the Summer Math and Science Honors Academy (SMASH) is supported by the Kapor Foundation.
 
-![Summer Math and Science Honors Program at Morehouse](img/smash.jpg){width=50%}
+![Summer Math and Science Honors Program at Morehouse](img/smash.jpg){width=45%}
 
 
 ![SMASH Student Project](img/smash2.png){width=70%}
 
 
 ![SMASH Student Project](img/smash1.png){width=70%}
----
 
-{{< video <iframe width="560" height="315" src="https://www.youtube.com/embed/MK2KrJTsZ2k?si=_EYjcu2_hqs_x1T3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> width="100%" height="100%" >}}
+[Research and teaching at Howard University]{style="color:orange;"}
 
----
+Training future teachers of elementary and secondary mathematics.
+
+![My EDUC 315 (math methods) students](img/educ2.jpg){width=40%}
+
+Expanding computational knowledge beyond STEM.
+
+![The Quant Shop](img/logo.png){width=50%}
+
+![Quantitative Histories Workshop](img/lab.png)
+
+![Quantitative Histories Workshop](img/lab2.png)
+
+![Quantitative Histories Workshop](img/lab3.png)
+
 
 # Quantitative Histories Workshop
 
@@ -285,110 +297,157 @@ and
 
 [research lab]{style="color:orange;"}
 
-# Research Problem
-
-[Increasingly complex problems require complex tools.]{style="color:blue;"}
-
-Computational tools support interdisciplinary thinking.
-
-# Research Problem
-
-Increasingly complex problems require complex tools.
-
-[Computational tools support interdisciplinary thinking.]{style="color:blue;"}
-
-# Research Problem
-
-Increasingly complex problems require complex tools.
-
-Sub-disciplinary tools require interdisciplinary thinking.
-
-[How might information theories inform interdisciplinary curriculum and software development?]{style="color:blue;"}
-
-# Information theory
-
-::: {.incremental}
-
-Information theory is a branch of applied mathematics and computer science that deals with the quantification, storage, transmission, and manipulation of information. [We take an abstract approach to our study of information.]{style="color:blue;"}
-
-  - Information theory seeks to measure the amount of information contained in a *message* or signal and how efficiently it can be transmitted or stored.
-  
-  - In this way, our projects define *information* using a curricular perspective.
-  
-  - Namely, how might faculty and educators [leverage computation and quantification]{style="color:blue;"} to transmit information efficiently while [maintaining the roots of complex theories and concepts?]{style="color:blue;"}
-
-:::
-
 # Quantitative history
 
 ![*Historie Quantitative* by Pierre Chaunu](img/quanthist.jpg){width=50%}
 
+## The quantitative historical methods {background-image="https://www.cjr.org/wp-content/themes/cjr2017/images-body/Rosenthal-van.jpg" background-opacity=0.25}
+
+Quantitative history applies statistical methods and numerical data to analyze historical patterns and trends over time. It emerged prominently in the mid-20th century, particularly through cliometrics in economic history.
+
+Our lab examines problems of injustice over long periods of time. 
+
+While social scientists may focus on politics and policy within short horizons — such as ten years in the past or five years into the future — we work integrate insights from history to track trends across much longer spans, like $\pm 100$ years.
 
 # Mathematical sociology
 
 ![*Journal of Mathematical Sociology*](img/math-soc.jpg){width=50%}
 
+## Integrating intuition and formal modeling {background-image="img/man-with-magnifying-glass-with-risograph-effect-remixed-media.jpg" background-opacity=0.25}
 
-# Curriculum and software development
+Mathematical sociology uses mathematics to formalize and refine sociological theories more precisely than verbal descriptions allow. It focuses on constructing models that abstract social phenomena, derive predictions deductively, and reveal common patterns across diverse topics like networks or diffusion processes.
 
-Design, development, implementation, and evaluation of computational curricular materials
+Some common tools include game theory for collective action, stochastic processes for influence spread, and algebraic models for kinship structures. It bridges micro-level decisions (e.g., rational choice) and macro structures.
+
+## The Sociological Imagination {background-image="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhYYNoKhePRdLU1dJ_ai1niYceSkdOCREMv75hoZ3TF8fE71-qveHjpUuzEh1wTbfYQAoxw30v2XRWrGtDjv6DSlCc3JjUk3hpDGnZSaOLEANkcnTXbgvdMVCTFvZIQdKvChAbusjI2HTM/s400/c_wright_mills.jpg" background-opacity=0.5}
+<small>C. Wright Mills</small>
+
+- Coined in the late 1950s by American sociologist C. Wright Mills and describes the type of daily insights offered by the field of sociology.
+- Think "Biography, History, and Society"
+- Defined by Mills (1959) as “the awareness of the relationship between personal experience and the wider society” (p. 7)
+- Presents a sociological inquiry of self-reflection, contrasted with broader global occurrences, “the public issues of social structure,” and shared histories (Mills, 1959, p. 8)
+
+
+# Where does data science fit into this conversation?
+
+[Increasingly complex problems require complex tools.]{style="color:blue;"}
+
+Archival records, history, and computational tools support interdisciplinary thinking.
+
+How might theories of information and data science inform the artifacts that we leave for the future?
+
+# Where does data science fit into this conversation?
+
+Increasingly complex problems require complex tools.
+
+[Archival records, history, and computational tools support interdisciplinary thinking.]{style="color:blue;"}
+
+How might theories of information and data science inform the artifacts that we leave for the future?
+
+# Where does data science fit into this conversation?
+
+Increasingly complex problems require complex tools.
+
+Archival records, history, and computational tools support interdisciplinary thinking.
+
+[How might theories of information and data science inform the artifacts that we leave for the future?]{style="color:blue;"}
+
+# Where does data science fit into this conversation?
+
+Increasingly complex problems require complex tools.
+
+Archival records, history, and computational tools support interdisciplinary thinking.
+
+[How might theories of information and data science inform the artifacts that we leave for the future?]{style="color:blue;"}...yet, we must ask: [How much *data* do you want for your progress?]{style="color:red;"}
 
 ---
 
-## Research projects
-  
-  - ECHO: Education, Community, and Health Observations
-  
-    - Information and spatial segregation
-    
-  - Quantifying state violence
-  
-    - Prisons, a history of the U.S.
-    
-    - Policing, power and punishment.
-    
-    - The divided states of america: Politics and the development of an empire
-  
-  - Statistics and data science education
-  
-    - Teaching statistical learning and mathematical modeling
-    
-    - Computation and adult learning
-  
-  - Maintaining complex theory in quantification
-  
-    - Theories and conceptions of race and racism
-  
+{{< video <iframe width="560" height="315" src="https://www.youtube.com/embed/MK2KrJTsZ2k?si=_EYjcu2_hqs_x1T3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> width="100%" height="100%" >}}
+
+# How much [*data*]{style="color:red;"} do you want for your progress? Quantitative History and the Study of Social Problems
+
 ---
 
+## Studying Black life at the turn of the 20th century {background-image="img/researchers_at_schomburg_1928.jpg" background-opacity=0.5}
 
-## Research projects
-  
-  - ECHO: Education, Community, and Health Observations
-  
-    - [Information and spatial segregation]{style="color:blue;"}
-    
-  - [Quantifying state violence]{style="color:blue;"}
-  
-    - Prisons, a history of the U.S.
-    
-    - Policing, power and punishment.
-    
-    - The divided states of america: Politics and the development of an empire
-  
-  - Statistics and data science education
-  
-    - Teaching statistical learning and mathematical modeling
-    
-    - Computation and adult learning
-  
-  - Maintaining complex theory in quantification
-  
-    - [Theories and conceptions of race and racism]{style="color:blue;"}
+---
 
-# Project overview: Spatial information and racial isolation
+## Archival Context
 
-![Washington Post map on Fair Cities Act (1968)](img/us-segregation.jpg){width=50%}
+This work is part of a series of broader projects, *Histories of African Americans Connecting Mathematics and Society* initially presented at the Joint Math Meetings in 2023 and *Statistically Measuring and Modeling Social Justice*, an intermediate statistics course that I teach at Howard.
+
+- **Archival research on W. E. B. Du Bois** (Data and Du Bois): Collaboration with Kalasia Daniels (Kean) and members of the Quantitative Histories Workshop.
+
+- **The (Euphemia Lofton) Haynes Project**: Collaboration with Edray Goins (Pomona), John Stigall (Howard), Susan Kelly (UW-La Crosse), & David Joyner (US Naval Academy).
+
+- **Exploring the social networks of Black Mathematicians** (The Connections Project): Current collaboration with Robin Wilson (LMU) and Terika Harris (CUNY), extension of our previous work and ongoing learning from Erica Walker (University of Toronto).
+
+---
+
+## The Educational Landscape
+
+:::{.center}
+![The American Negro Academy](img/american-negro-academy.jpg){width=70%}
+:::
+
+---
+
+## 1911 initiates of the American Negro Academy
+
+Importantly, this work took place earlier. We have partial records from Carter G. Woodson and very limited ephemera from the archives of Kelly Miller.
+
+:::{.center}
+![1911 initiates of the American Negro Academy](img/sigma-pi-phi-1911-miller-woodson-1.png){width=70%}
+:::
+
+---
+
+## 1911 initiates of the American Negro Academy
+
+Importantly, this work took place earlier. We have partial records from Carter G. Woodson and very limited ephemera from the archives of Kelly Miller.
+
+:::{.center}
+![1911 initiates of the American Negro Academy](img/sigma-pi-phi-1911-miller-woodson-2.png){width=70%}
+:::
+
+---
+
+## Lessons from 20th Century Black Educational Leaders
+
+- **Community-Centered Approaches:**  
+  _Education should serve the real, expressed needs of African American communities._
+
+- **Multiple Pathways:**  
+  _Rejecting a single model, these leaders blended classical education, technical skills, cultural pride, and civic leadership._
+
+- **Curriculum as Empowerment:**  
+  _Math, science, and humanities can all be agents for liberation if connected to real lives._
+
+---
+
+## Racism vs. Anti-Blackness {background-image="https://upload.wikimedia.org/wikipedia/commons/c/c6/Blackboard.png?20200731124623" background-opacity=0.5}
+
+In a 2020 NY Times article, kihana miraya ross chronicles the realities of anti-Blackness. [ross (2020)](https://www.nytimes.com/2020/06/04/opinion/george-floyd-anti-blackness.html) deals with the related but differing functions of racism and anti-Blackness.
+
+- Black existence is considered a problem (see Du Bois, 1903)
+
+- Antiblackness is not simply a synonym for racism against Black people (Gordon, 1997; ross, 2020; Sexton, 2008; Wilderson, 2010)
+
+- Antiblackness describes an antagonism "between blackness and (the possibility of) humanity” (Dumas & ross, 2016, p. 429)
+
+- One example of evidence is in our collective neighborhood and housing practices in the U.S., namely, the issue of proximity to (poor) Black people; these are considered "legacies of slavery" (Wynter)
+
+
+## The Racial Contract  
+<small>Charles Wade Mills</small>
+
+![Essay by late Jamaican philosopher Charles Wade Mills (1951-2021)](img/racial.jpg){width=40%}
+
+- The "social contract" is a theory in moral and political philosophy concerning state authority over individuals, often presented as neutral regarding race/ethnicity
+- Mills argues these ideas create a “racial contract” that has regulated relations between whites and non-whites; these narratives are relegated by what he calls oppressive and non-oppressive societies that manage, for example, our academic work
+- We extend this work to the relations between Black and non-Black persons - and we argue that these relations are [social]{style="color:red;"}, [emotional]{style="color:red;"}, and [spatial]{style="color:red;"} in both form and function.
+
+# A theory and history of dividing walls {background-image="https://static01.nyt.com/images/2017/01/31/learning/19540518BrownLN/19540518BrownLN-superJumbo.png?quality=75&auto=webp" background-opacity=0.25}
 
 ## Information and spatial segregation
 
@@ -402,13 +461,9 @@ Design, development, implementation, and evaluation of computational curricular 
   
   - *Modern computational tools*. What new (grounded) theoretical insights can be identified?
 
-# A theory and history of dividing walls
-
 # Geometric approach
 
-We adopt a **topological** model for spatial segregation on a geographical area, $G$ to develop a theory of dividing walls.
-
-Builds on the topological and topographical work of Short (2011).
+We adopt a **topological** model for spatial segregation on a geographical area, $G$ to develop a theory of dividing walls. Builds on the topological and topographical work of Short (2011).
 
 **Theorem 1**. Given any configuration of blue and green towns, there is a dividing wall that separates blue towns from green towns.
 
@@ -418,74 +473,35 @@ Builds on the topological and topographical work of Short (2011).
 
 **Theorem 1**. Given any configuration of blue and green towns, there is a dividing wall that separates blue towns from green towns.
 
+Is there a dividing wall?
+
 ![Geographic area with neighborhood units](img/wall-1.png){width=50%}
 
 ---
 
 **Theorem 1**. Given any configuration of blue and green towns, there is a dividing wall that separates blue towns from green towns.
 
+Is there a dividing wall?
+
 ![Geographic area with wall dividing neighborhood units](img/wall-0.png){width=50%}
 
 ---
 
-## Is there a dividing wall for an island with coastal towns?
-
-![Island with coastal towns](img/wall-3.png){width=50%}
-
----
-
-## Is there a dividing wall for an island with coastal towns?
-
-![Minimal configuration](img/wall-4.png){width=50%}
----
-
-**Theorem 2**. Alternating configurations of towns do not have a dividing wall, whereas non-alternating configurations of towns do have a dividing wall.
-
-![Alternating configuration (left) and non-alternating configuration (right).](img/wall-5.png){width=50%}
-
----
-
-### Algebraic approach
-
-We then develop a algebraic modeling approach using methods from **mathematical sociology**.
-
-Segregation indices
+### Segregation indices
 
   - *Dissimilarity index*: Measures the proportion of one group's population that would need to move to achieve an even distribution across all areas. It ranges from 0 to 1, with higher values indicating greater segregation.
 
   - *Isolation index*: Measures the extent to which members of a particular group are surrounded by others from the same group. It represents the percentage of people from a specific group who would need to change neighborhoods to achieve an even distribution. Higher values indicate higher isolation and segregation.
 
----
-
-### Algebraic approach
-
-We then develop a algebraic modeling approach using methods from **mathematical sociology**.
-
-Segregation indices
-
   - *Exposure index*: Measures the extent to which members of one group are exposed to members of another group. It quantifies the likelihood that a randomly selected individual from one group will encounter individuals from another group. Higher values indicate higher exposure and lower segregation.
-  
-  - *Concentration index*: Measures the extent to which a particular group is concentrated in specific areas or neighborhoods. It reflects the degree of clustering or dispersion of the group's population across geographic units.
-
-  - *Gini index*: Measure of income inequality, but it can also be adapted to measure residential segregation. It provides a summary measure of the overall distribution of different groups across neighborhoods.
-  
----
-  
-  ## Racial isolation from an algebraic geometry approach
-  
-  ![Horizontal configuration.](img/horizontal.png){width=50%}
 
 ---
-  
-  ## Racial isolation from an algebraic geometry approach
-  
-  ![Vertical configuration.](img/vertical.png){width=50%}
 
 ## Index of Dissimilarity
 
 $$ D = \dfrac{1}{2} \sum_\limits{i=1}^n  \bigg| \text{Proportion of Black units} - \text{Proportion of non-Black units} \bigg| $$
   
-  - $n$ is the number of neighborhoods in a geographic region, 
+- $n$ is the number of neighborhoods in a geographic region, 
 
 - $b_i$ is the number of Black household units in neighborhood $i$,
 
@@ -515,227 +531,23 @@ $$ D = \dfrac{1}{2} \sum_\limits{i=1}^n  \bigg| \text{Proportion of Black units}
     
 ## Computational approach
     
-Teaching computational methods and open source tools makes for efficient and accurate learning. In about 5 lines of code, there is an immediate intersection of theory and computation.
+Teaching computational methods and using open source tools makes for efficient and accurate learning. In about 5 lines of code, there is an immediate intersection of theory and computation. We use the `tidycensus()` package to gather various metrics and extend the previous models.
 
-Here we use the `tidycensus()` package to gather various metrics.
+![DC Black Residents](img/black-residents-dc.png){width=50%}
 
-## Prisons
+---
 
-The U.S. Bureau of Justice Statistics maintains records of federal and state prison populations[^carson].
-
-```{r}
-#| echo: false
-#| output: false
-#| warning: false
-library(ggplot2)
-library(readr)
-library(dplyr)
-race <- c("Black", "American Indian", "Latinx", "White", "Asian")
-rate <- c(901, 763, 434, 181, 72)
-prison_rates_ethnicity <- data.frame(race, rate)
-```
-
-```{r}
-#| echo: false
-#| output: true
-#| warning: false
-
-ggplot(prison_rates_ethnicity, aes(race, rate)) +
-  geom_col(fill="darkred") +
-  geom_text(aes(label=rate), vjust=1.6, color="white", size=3.5) +
-  theme_minimal() +
-  labs(title= "Imprisonment Rates by Race, 2021",
-       subtitle = "Per 100,000 of US residents of each demographic group",
-       x ="Race",
-       y = "",
-       caption = "Carson (2022). Prisoners in 2021.") + 
-  theme(panel.background = element_blank())
-
-```
-[^carson]: Source: [Carson (2022). Prisoners in 2021 – Statistical tables. Bureau of Justice Statistics.](https://bjs.ojp.gov/library/publications/prisoners-2021-statistical-tables)
-
-## Prisons
-
-To support our framing of contemporary data, we take on an historical view.
-
-```{r}
-#| echo: false
-#| output: false
-#| warning: false
-# read in data and update
-df <- read_csv("https://raw.githubusercontent.com/professornaite/prisons/main/data/fed_state_prison_pop_1926_1986_clean.csv")
-
-
-df %>% 
-  rename(Count = `Total`,
-         TotalPct = `Total Percentage`,
-         Type = `Prison Type`,
-         WhitePct = `White Percentage`,
-         BlackPct = `Black Percentage`) %>% 
-  relocate(Year, Type) -> df
-
-# subset data
-df_state = df %>% filter(Type == "State")
-df_state <- df_state %>% 
-  mutate(date = as.Date(Year, format = "%Y-%m-%d"))
-
-df_federal = df %>% filter(Type == "Federal")
-df_federal <- df_federal %>% 
-  mutate(date = as.Date(Year, format = "%Y-%m-%d"))
-
-df_both = df %>% filter(Type == "State + Federal")
-df_both <- df_both %>% 
-  mutate(date = as.Date(Year, format = "%Y-%m-%d"))
-
-```
-
-::: {.panel-tabset}
-
-### Federal
-
-Federal racialization data
-
-```{r}
-#| echo: false
-#| output: false
-#| warning: false
-f1 <- ggplot(df_state, aes(x=date, y=WhitePct)) +
-  geom_line(color="lightblue", size=2) +
-  ggtitle("US Federal Prison Racialization (1926 - 1986)") +
-  ylab("% Racialized as White") +
-  xlab("Year") + 
-  ylim(1,100) +
-  geom_line()
-
-f2 <- ggplot(df_state, aes(x=date, y=BlackPct)) +
-  geom_line(color="red",size=2) +
-  ggtitle("US Federal Prison Racialization (1926 - 1986)") +
-  ylab("% Racialized as Black") +
-  xlab("Year") + 
-  ylim(1,100) +
-  geom_line()
-```
-
-```{r}
-#| echo: false
-#| output: true
-#| warning: false
-f1 + f2
-```
-
-
-### State
-
-State racialization data
-
-```{r}
-#| echo: false
-#| output: false
-#| warning: false
-
-s1 <- ggplot(df_federal, aes(x=date, y=WhitePct)) +
-  geom_line(color="lightblue", size=2) +
-  ggtitle("US State Prison Racialization (1926 - 1986)") +
-  ylab("% Racialized as White") +
-  xlab("Year") + 
-  ylim(1,100) +
-  geom_line()
-
-s2 <- ggplot(df_federal, aes(x=date, y=BlackPct)) +
-  geom_line(color="red",size=2) +
-  ggtitle("US State Prison Racialization (1926 - 1986)") +
-  ylab("% Racialized as Black") +
-  xlab("Year") + 
-  ylim(1,100) +
-  geom_line()
-
-```
-
-```{r}
-#| echo: false
-#| output: true
-#| warning: false
-s1 + s2
-```
-
-### Federal and State
-
-Federal and State racialization data
-
-```{r}
-#| echo: false
-#| output: false
-#| warning: false
-
-b1 <- ggplot(df_both, aes(x=date, y=WhitePct)) +
-  geom_line(color="lightblue", size=2) +
-  ggtitle("State and Federal Prison Racialization (1926 - 1986)") +
-  ylab("% Racialized as White") +
-  xlab("Year") + 
-  ylim(1,100) +
-  geom_line()
-
-b2 <- ggplot(df_both, aes(x=date, y=BlackPct)) +
-  geom_line(color="red",size=2) +
-  ggtitle("State and Federal Prison Racialization (1926 - 1986)") +
-  ylab("% Racialized as Black") +
-  xlab("Year") + 
-  ylim(1,100) +
-  geom_line()
-```
-
-```{r}
-#| echo: false
-#| output: true
-#| warning: false
-b1 + b2
-```
-
-:::
-
-
-## Racism vs. Anti-Blackness {background-image="https://upload.wikimedia.org/wikipedia/commons/c/c6/Blackboard.png?20200731124623" background-opacity=0.5}
-
-In a 2020 NY Times article, kihana miraya ross chronicles the realities of anti-Blackness. [ross (2020)](https://www.nytimes.com/2020/06/04/opinion/george-floyd-anti-blackness.html) deals with the related but differing functions of racism and anti-Blackness.
-
-::: {.incremental}
-
-  - ross notes that “'racism' fails to fully capture what black people in this country are facing."
-  
-  - ross continues by noting that "Anti-blackness is one way some black scholars have articulated what it means to be marked as black in an anti-black world."
-  
-  - Broadly, ross defines anti-Blackness as society's inability to recognize Black people's humanity.
-
-:::
-
-
-# Broad Implications
-
-  - K-12 teaching and learning
-  
-    - This also exposes students to a diversity of problems and methods to solve those problems.
-
-  - Computationally-focused research and training in higher education
-  
-    - Provides an equitable pathway and entry into "high information, high density" conversations.
+## Computational approach
     
-  - Industry and professional organizations
+Teaching computational methods and using open source tools makes for efficient and accurate learning. In about 5 lines of code, there is an immediate intersection of theory and computation. We use the `tidycensus()` package to gather various metrics and extend the previous models.
 
-# Gratitude for your time.
+![Dividing Wall, DC](img/dividing-wall-dc.png){width=50%}
 
-# Abstract
+---
 
-We explore how multidimensional measures of local communities -- such as those provided by the Census Community Resilience Estimates (CREs) -- can be used to frame and model dynamic changes in neighborhood communities using an intersectional lens. 
+## Current project: Mapping Multidimensionality
 
-We build on prior research inspired by work on the United States as a "Patchwork Nation."
-
-# Quantitative Histories Workshop
-
-`curriculum & software development collective` 
-
-and
-
-[research lab]{style="color:orange;"}
+We explore how multidimensional measures of local communities -- such as those provided by the Census Community Resilience Estimates (CREs) -- can be used to frame and model dynamic changes in neighborhood communities using an intersectional lens.  We build on prior research inspired by work on the United States as a "Patchwork Nation."
 
 ---
 
@@ -1126,393 +938,42 @@ There are multiple models for consideration:
 
 :::
 
-## Overview
+---
 
-- [x]  Project background and model development (Nathan, Howard University, faculty)
+## related research
 
-- [ ]  Case analysis: Health (Bayowa, Howard University, M.S. Data Science)
+- **Alexander, N. N.**, Thompson, B., Piercey, V., & Diaz Eaton, C. (2025). Towards a Praxis of Critical Inquiry in Undergraduate Mathematics Classrooms. *Inquiry: Critical Thinking Across the Disciplines*.
 
-- [ ]  Dashboard: Race and ethnicity (Jibek, Howard University, Junior, B.S. Computer Science)
+- **Alexander, N. N.**, Appling, T., Banuelos, M., Bello, G., Brown, A., Century, J., Connor, K., Ji, H., Levy, R., Mitchell, P., Mongeau, D., Mysliwiec, M., Niu, J., Paykin, S., Quarkume, A., Schiffman, J., Skinner, L., Uminsky, D. & Zhong, P. (2023). Data Science for Social Impact in Higher Education: First Steps. *Data.org Playbook* (online).
+ 
+- Jones, Q., Vindas Meléndez, A. R., Mendible, A., Aminian, M., Brooks, H. Z., **Alexander, N. N.**, Diaz Eaton, C., & Chodrow, P. (2023). Data science and social justice in the mathematics community. *Notices of the American Mathematical Society, 70*(9), 1479-1489.
 
-- [ ]  Political analysis (Nathan, on behalf of our Morehouse team)
-
-```{r, include=F, warning=F, results=F, message=F}
-link <- "https://www2.census.gov/programs-surveys/demo/datasets/community-resilience/2022/CRE_22_Tract.csv"
-df_cre <- read.csv(link)
-# CRE data for DC
-cre.2022.dc <- df_cre %>%
-  filter(STATE == "11") # FIPS code for DC
-# CRE data for MD
-cre.2022.md <- df_cre %>%
-  filter(STATE == "24") 
-# Calculate proportion of Black population
-cre_correlates_dc <- cre_correlates_dc %>%
-  mutate(prop_black = black_populationE / summary_est)
-# Modify the GEO_ID in cre.2022.dc
-cre.2022.dc_modified <- cre.2022.dc %>%
-  mutate(GEOID_modified = str_extract(GEO_ID, "\\d+$")) %>%
-  mutate(GEOID_modified = str_sub(GEOID_modified, -11)) %>% 
-  relocate(GEOID_modified)
-# Join data
-merged_dc <- cre_correlates_dc %>%
-  left_join(cre.2022.dc_modified, by = c("GEOID" = "GEOID_modified"))
-# Load the hypertension dataset
-link2 <- "https://raw.githubusercontent.com/Bayowar/202-statistics/refs/heads/main/data-table-htn-dx-mortal.csv"
-htn_mort_data <- read.csv(link2)
-htn_mort_data <- htn_mort_data %>%
-  mutate(STATE = ifelse(STATE == "District of Columbia", "DC", STATE))
-htn_mort_data
-
-htn_mort_data <- htn_mort_data %>%
-  mutate(RATE = as.numeric(RATE))
-
-summary(htn_mort_data$RATE)  #conversion to numeric
-
-htn_mort_data <- htn_mort_data %>%
-  mutate(DEATHS = as.numeric(DEATHS))
-
-summary(htn_mort_data$DEATHS)  #conversion to numeric
-
-
-# State summary
-state_summary <- htn_mort_data %>%
-  group_by(STATE) %>%
-  summarise(
-    Mean_Rate = mean(RATE, na.rm = TRUE),
-    Median_Rate = median(RATE, na.rm = TRUE),
-    Total_Deaths = sum(DEATHS, na.rm = TRUE)
-  )
-```
-
-# Case analysis: Health
-
-## Hypertension
-
-Hypertension, also known as high blood pressure, is a condition in which the force of blood pushing against the walls of the arteries is consistently too high. 
-
-The condition is a compounding health concern in the United States.
-
-:::{.callout-note appearance="simple"}
-Between 2017-2020, an estimated 115.3 million US adults had high blood pressure, representing up to 45% of the adult population.
-:::
-
-The prevalence of high blood pressure fluctuations over time:
-
-- Between 1999--2000, high blood pressure was highest at 47.9%
-- It reached its lowest points between 2009-2010 and 2013-2014 at 43%
-- As of 2017-2020, high blood pressure had a national average of around 48%
+- **Alexander N. N.**, Diaz Eaton C., Shrout A. H., Tsinnajinnie B., & Tsosie, K. (2022). Beyond ethics: Considerations for centering equity-minded data science. *Journal of Humanistic Mathematics, 12*(2), 254–300.
 
 ---
 
-## Hypertension rate in the US
+## Next Steps: An HBCU Open Science Network
 
-Time Trend of Hypertension Mortality Rates Over Time in the US
+- **Goal**. Collaborative networking within/across HBCUs to share resources and ideas.
 
-```{r, echo=F, warning=F, message=F}
-htn_mort_data%>%
-  group_by(YEAR) %>%
-  summarise(Mean_Rate = mean(DEATHS, na.rm = TRUE)) %>%
-  ggplot(aes(x = YEAR, y = Mean_Rate, group = 1)) +
-  geom_line(color = "red") +
-  geom_point(color = "blue") +
-  labs(title = "Trend of Hypertension Mortality Rates Over Time in the U.S.",
-       x = "Year",
-       y = "Mean Mortality Rate (per 100,000)") +
-  theme_minimal()
-```
+- **Funding**. We received funding to support HBCU faculty with developing open-source data science modules and materials, strengthening data science infrastructure at their institutions. We just received bridge funding to expand this work.
 
-```{r, echo=F, warning=F, message=F, include=F}
-# Define selected states
-selected_states <- c( "MD", "DC", "PA", "VA",
-                     "WV", "NJ")
+- **Partners**. We are building an HBCU faculty network in partnership with The Carpentries to develop and share culturally relevant and social impact resources, and address the unique needs of HBCU students and faculty as it relates to open science.
 
-htn_mort_2022_selected_states <- htn_mort_data %>%
-  filter(STATE %in% selected_states)
-tail(htn_mort_2022_selected_states)
-```
-
-## Comparative rates in the DMV
-
-Bar chart of Hypertension Morbidity Rates in Proximal States
-
-```{r, echo=F}
-ggplot(htn_mort_2022_selected_states, aes(x = STATE, y = RATE)) +
-  geom_col(fill = "red", color = "black") +
-  labs(title = "Comparison of Hypertension Morbidity Rates for Selected States vs DC",
-       x = "State",
-       y = "Mortality Rate (per 100,000)") +
-  theme_minimal()
-```
-
-```{r, echo=F, warning=F, include=F, message=F}
-# ACS 2022 5-year estimates for U.S. states
-acs_data <- get_acs(
-  geography = "tract", 
-  state = "DC", # state level data
-  variables = c(
-    "TOTAL_POPULATION" = "B01003_001",  # Total state population
-    "POVERTY_TOTAL" = "B17001_001",  # Total population for poverty rate
-    "LABOR_FORCE" = "B23025_003",  # Labor force for unemployment rate
-    "UNEMPLOYED" = "B23025_005",  # Unemployed population
-    "EDUCATION_TOTAL" = "B15003_001",  # Total population aged 25+ for education rate
-    "EDUCATION_BACHELORS" = "B15003_022",  # Population with a bachelor's degree or higher
-    "HEALTHCARE_INSURED_TOTAL" = "B27010_001",  # Total population with healthcare insurance
-    "HEALTHCARE_UNINSURED_MALE_U19" = "B27010_017",  # Male under 19 without insurance
-    "HEALTHCARE_UNINSURED_MALE_19_35" = "B27010_033",  # 19-35 without insurance
-    "HEALTHCARE_UNINSURED_35_64" = "B27010_050",  # 35-64 without insurance
-    "HEALTHCARE_UNINSURED_ABOVE_64" = "B27010_066",  # Age above 64 without insurance
-    black_population = "B02001_003", # Black or African American alone population
-    white_population = "B02001_002", 
-    american_indian_alaska_native_alone = "B02001_004", 
-    asian_alone = "B02001_005",
-    native_hawaiian_other_pacific_islander_alone = "B02001_006" 
-    ),
-  year = 2022,  # Use the 2022 ACS 5-year estimates
-  summary_var = "B02001_001",
-  survey = "acs5",  # Specify the 5-year survey
-  output = "wide"  # Return data in wide format
-)
-
-# Calculate proportion of Black and other population
-acs_data_ser_dc <- acs_data %>%
-  mutate(prop_black = black_populationE / summary_est,
-         prop_white = white_populationE / summary_est,
-         prop_american_indian_alaska = american_indian_alaska_native_aloneE / summary_est,
-         prop_asian_alone = asian_aloneE / summary_est,
-         prop_native_hawaiian_other_pacific = native_hawaiian_other_pacific_islander_aloneE / summary_est)
-
-#Create a new column for total uninsured population
-acs_data_ser_dc_clean <- acs_data_ser_dc %>%
-  mutate(
-    HEALTHCARE_UNINSURED_TOTAL = HEALTHCARE_UNINSURED_MALE_U19E +
-                                 HEALTHCARE_UNINSURED_MALE_19_35E +
-                                 HEALTHCARE_UNINSURED_35_64E+
-                                 HEALTHCARE_UNINSURED_ABOVE_64E)
-
-# Rates
-acs_data_ser_dc_clean_estimates_ <- acs_data_ser_dc_clean %>%
-  mutate(
-    POVERTY_RATE = (POVERTY_TOTALE / TOTAL_POPULATIONE) * 100,  # Poverty rate
-    UNEMPLOYMENT_RATE = (UNEMPLOYEDE / LABOR_FORCEE) * 100,  # Unemployment rate
-    EDUCATION_RATE = (EDUCATION_BACHELORSE / EDUCATION_TOTALE) * 100,  # Education rate
-    HEALTHCARE_ACCESS = (HEALTHCARE_INSURED_TOTALE / TOTAL_POPULATIONE) * 100  # Healthcare access rate
-  )
-head(acs_data_ser_dc_clean_estimates_)
-
-# relevant columns
-acs_data_ser_dc_clean_estimates_with_tracts <- acs_data_ser_dc_clean_estimates_ %>%
-  select(GEOID, NAME, TOTAL_POPULATIONE,HEALTHCARE_UNINSURED_TOTAL,prop_black,prop_asian_alone,prop_native_hawaiian_other_pacific,prop_american_indian_alaska,prop_white, summary_est, black_populationE, POVERTY_TOTALE,POVERTY_RATE, UNEMPLOYEDE,UNEMPLOYMENT_RATE, EDUCATION_TOTALE,EDUCATION_RATE, HEALTHCARE_ACCESS)
-
-acs_data_ser_dc_clean_estimates_with_tracts_  <- acs_data_ser_dc_clean_estimates_with_tracts %>%
-  mutate(STATE = "DC")
-
-link3 <- "https://raw.githubusercontent.com/Bayowar/202-statistics/refs/heads/main/indicator_data_download_20250323-2.csv"
-df <- read.csv(link3)
-
-brfss_dc_htn_data <- df %>%
-  select("Location", "Indicator.Rate.Value", "Period.of.Measure") %>%
-  rename(
-    tract = "Location",
-    hypertension_rate = "Indicator.Rate.Value",
-    year = "Period.of.Measure"
-  ) %>%
-  mutate(tract = as.character(tract))
-
-brfss_dc_htn_data_dc  <- brfss_dc_htn_data %>%
-  mutate(STATE = "DC")
-
-brfss_dc_htn_data_dc  <- brfss_dc_htn_data %>%
-  mutate(STATE = "DC")
-
-merged_dc_data <- brfss_dc_htn_data_dc %>%
-  left_join(acs_data_ser_dc_clean_estimates_with_tracts_ , by = c("tract" = "GEOID"))
-
-merged_dc_data <- merged_dc_data %>%
-  select(-STATE.x) %>%
-  rename(STATE = STATE.y)
-
-merged_dc_data_clean <- merged_dc_data %>%
-  filter(!is.na(tract))  # Drops rows where NA
-
-summary_by_year <- merged_dc_data_clean %>%
-  group_by(year) %>%
-  # Explicitly specify dplyr's summarize
-  dplyr::summarize(
-    mean_hypertension = mean(hypertension_rate, na.rm = TRUE),
-    tracts_count = n() 
-  )
-```
-
-```{r, eval=F, echo=F, warning=F, results=T, message=F}
-
-## The average has remained at 30 percent for DC
-
-### While modeling, we identify minor and negligible differences in the rate.
-ggplot(summary_by_year, aes(x = year, y = mean_hypertension)) +
-  geom_line(color = "red", linewidth = 1, alpha = 0.6) +  # Original line with transparency
-  geom_point(size = 3, color = "blue") +                 # Points to highlight data
-  geom_smooth(method = "loess", color = "darkgreen", se = FALSE, linewidth = 1.5) +  # Smoothed line
-  labs(
-    title = "Hypertension Rates in DC (2013 - 2021)",
-    x = "Year",
-    y = "Mean Hypertension Rate (%)"
-  ) +
-  theme_minimal() +
-  scale_x_continuous(breaks = seq(2013, 2021, by = 1))  # Show every year on the x-axis
-```
-
-## CRE and hypertension morbidity
-
-While the Community Resilience Estimates (CRE) do not directly measure hypertension, there are several indirect connections between hypertension and community resilience:
-
-- **Health Insurance**: One of the CRE risk factors is lack of health insurance. Individuals without health insurance are less likely to receive regular blood pressure screenings and treatment for hypertension.
-
-- **Socioeconomic Factors**: The CRE includes factors like poverty and employment, which are known to influence hypertension rates. 
-
-- **Education**: Limited education is a CRE risk factor. Lower educational attainment is associated with higher rates of hypertension.
-
-- **Age**: The CRE considers households with individuals aged 65 or older as a risk factor. Hypertension increases with age, making older populations more vulnerable to its effects.
-
-```{r, echo=F, warning=F, results=F, message=F}
-# Rename race columns (adjust indices based on your data)
-merged_dc_data_clean_new <- merged_dc_data_clean %>%
-  rename(
-    white = prop_white,     
-    black = prop_black,
-    asian = prop_asian_alone,
-    native = prop_american_indian_alaska,
-    hawai_pac = prop_native_hawaiian_other_pacific
-  )
-```
-
-## CRE and hypertension morbidity for DC
-
-```{r, echo=F, warning=F, results=F, message=F}
-correlation_vars <- merged_dc_data_clean_new %>%
-  select(hypertension_rate, POVERTY_RATE, UNEMPLOYMENT_RATE, EDUCATION_RATE)
-
-cor(correlation_vars, use = "complete.obs")
-```
-
-<style>
-.reveal table {
-  font-size: 0.8em; /* Adjust font size to fit */
-  width: 90%;       /* Limit width to avoid overflow */
-  margin: auto;     /* Center the table */
-}
-</style>
-
-```{r}
-#| echo: false
-#| warning: false
-#| message: false
-
-library(knitr)
-library(kableExtra)
-
-# Assuming you've already run the correlation
-correlation_matrix <- cor(correlation_vars, use = "complete.obs")
-
-# Create a formatted table
-cor_table <- kable(correlation_matrix, 
-                   caption = "Correlation Matrix of Hypertension and Socioeconomic Factors",
-                   digits = 3,
-                   format = "html") %>%
-  kable_styling(bootstrap_options = c("striped", "hover", "condensed", "responsive"),
-                full_width = FALSE) %>%
-  add_header_above(c(" " = 1, "Variables" = 4)) %>%
-  column_spec(1, bold = TRUE)
-
-# Display the table
-cor_table
-```
-
-## Racial Differences and Hypertension Morbidity for DC
-
-```{r, echo=F, warning=F, results=F, message=F}
-# Remove NA values
-correlation_vars <- merged_dc_data_clean_new %>%
-  # Select only the columns needed for correlation
-  select(hypertension_rate, white, black, asian, native, hawai_pac) %>%
-  # Remove rows with NA in ANY selected column
-  na.omit()
-
-# Calculate correlation matrix
-cor_matrix <- cor(correlation_vars, use = "complete.obs")
-```
-
-```{r}
-#| echo: false
-#| warning: false
-#| message: false
-
-library(tidyverse)
-library(knitr)
-library(kableExtra)
-
-# Remove NA values and calculate correlation matrix
-correlation_vars <- merged_dc_data_clean_new %>%
-  select(hypertension_rate, white, black, asian, native, hawai_pac) %>%
-  na.omit()
-
-cor_matrix <- cor(correlation_vars, use = "complete.obs")
-
-# Create a formatted table
-cor_table <- kable(cor_matrix, 
-                   caption = "Correlation Matrix of Hypertension Rate and Racial Demographics in DC",
-                   digits = 3,
-                   format = "html") %>%
-  kable_styling(bootstrap_options = c("striped", "hover", "condensed", "responsive"),
-                full_width = FALSE) %>%
-  add_header_above(c(" " = 1, "Variables" = 6)) %>%
-  column_spec(1, bold = TRUE)
-```
-
-
-```{r, echo=F}
-cor_table
-```
-
-## Hypertension and CRE
-
-```{r, include=F, echo=F, message=F, warning=F}
-# Join data
-merged_cre_htn_dc <- merged_dc %>%
-  left_join(brfss_dc_htn_data_dc, by = c("GEOID" = "tract"))
-
-# Print the first few rows of the merged dataset
-head(merged_cre_htn_dc)
-total_rows <- nrow(merged_cre_htn_dc)
-print(paste("Total rows:", total_rows))
-merged_cre_htn_dc_clean <- merged_cre_htn_dc %>%
-  filter(!is.na(hypertension_rate))  # Drops rows where NA
-merged_cre_htn_dc_clean_2021 <- merged_cre_htn_dc_clean %>% filter(year == 2021) # Drops rows where NA
-merged_cre_htn_dc_clean_2021
-```
-
-```{r, echo=F, include=T, message=F, warning=F}
-ggplot(merged_cre_htn_dc_clean_2021, aes(x = hypertension_rate, y = PRED3_PE)) +
-  geom_point(alpha = 0.5) +
-  geom_smooth(method = "lm", aes(color = "Linear"), se = FALSE) +
-  geom_smooth(method = "loess", aes(color = "Non-linear"), se = FALSE) +
-  labs(title = "DC: Hypertension Morbidity Rate vs. Community Resilience Estimate",
-       x = "Hypertension morbidity rate",
-       y = "% Population with 3+ Risk Factors",
-       color = "Fit Type") +
-  scale_color_manual(values = c("Linear" = "red", "Non-linear" = "blue")) +
-  theme_minimal()
-```
+- **Building community.** Bridge funds will support collaborative site visits, idea generation, and grant proposal development. Our first virtual meeting is in July for those interested in joining and helping to expand the network. Please be in touch.
 
 
 # Special Thanks
 
-**Research assistants**: Myles Ndiritu (Morehouse College), Zoe Williams (Howard University), Kade Davis (Morehouse College), Amari Gray (Morehouse College)
+Howard University Center for Applied Data Science and Analytics (CADSA).
 
-**Lab manager**: Lyrric Jackson (Spelman College)
+Howard University School of Education (HUSOE).
 
-**Funding**: Alfred P. Sloan Foundation, AUC Data Science Initiative, Data.org
+Members of the Quantitative Histories Workshop.
 
-**Partners**: The Carpentries
+**Funding**: National Endowment for the Humanities (NEH), Open Research Community Accelerator (ORCA), Alfred P. Sloan Foundation, AUC Data Science Initiative, Data.org
+
+**External Partners**: The Carpentries, CURIOSS, Institute for Racial Justice, Morehouse College, Clark Atlanta University, Kalasia Daniels (Kean)
 
 # References
 
