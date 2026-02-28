@@ -4,15 +4,6 @@ author: "Nathan Alexander, PhD"
 institute: 
   - "Howard University"
 format:
-  pdf:
-    toc: true
-    number-sections: true
-    colorlinks: true
-    self-contained: true
-    embed-resources: true 
-  html:
-    self-contained: true
-    embed-resources: true
   revealjs:
     # output-file: how-much-data.html
     height: 900
