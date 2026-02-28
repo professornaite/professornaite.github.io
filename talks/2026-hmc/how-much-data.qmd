@@ -62,7 +62,13 @@ library(knitr)
 
 ---
 
-Framing the talk.
+Framing our time.
+
+- A bit about me.
+
+- Our lab, the Quantitative Histories Workshop.
+
+- *How much data do you want for your progress?*
 
 ---
 
@@ -72,7 +78,7 @@ Framing the talk.
 
 My ancestors come from the coast of the Carolinas (NC and SC), where enslaved Africans entered what is now known as the United States. I was born in Charlotte, NC. Meaning that, over time, like many other Black families, there was little movement beyond the South.
 
-![The Carolinas, from the Equal Justice Initiative (2026)](img/carolinas.jpg){width=80%}
+![The Carolinas, from the Equal Justice Initiative (2026)](img/carolinas.jpg){width=60%}
 
 My family has very few historical records of our ancestors.
 
@@ -86,6 +92,9 @@ I was raised in a public housing project in South Charlotte, known as Boulevard 
 
 ![Boulevard Homes Public Housing Project, Charlotte, NC](img/boulevard-homes.jpg){width=60%}
 
+Despite our economic conditions, my parents supported our learning and well-being. 
+
+![My 5th birthday party with my sisters and cousins.](img/birthday.jpg){width=40%}
 
 By mere luck, I would be bused to Selwyn Elementary, the #1 elementary school in Charlotte at the time. For context, the surrounding median home value as of Feb. 2026 is $2,524,500^[Houses of South Charlotte: https://www.housesofsouthcharlotte.com/charlotte-nc/selwyn-elementary-school-boundary-map/].
 
@@ -111,6 +120,8 @@ I would then spend a summer in Boone, NC with the Summer Ventures Program. It wa
 
 ![Summer Ventures Program](img/summer-ventures.jpeg){width=60%}
 
+[The transition to my undergraduate studies.]{style="color:orange;"}
+
 ![Phillips Hall, UNC Department of Mathematics](img/phillips.avif){width=60%}
 
 [@UNC - Double major in mathematics and sociology.]{style="color:orange;"}
@@ -119,7 +130,7 @@ I was the only Black math major in the department.
 
 I would fall in love with coding in my statistics courses in sociology.
 
-![](img/spring-2007-unc-math.jpg){width=80%}
+![UNC Math Department Newsletter](img/spring-2007-unc-math.jpg){width=60%}
 
 
 [My 1st math course at UNC]{style="color:orange;"} 
@@ -128,23 +139,24 @@ I would fall in love with coding in my statistics courses in sociology.
 
 We spent the first-half of the term making connections to the real world; most literally, going outside to observe tree bark, patterns in the grass, reading books (e.g., The Labryinth), and writing "fractal" poems.
 
-![](img/fractal-geometry.png){width=80%}
+![Fractal Geometry](img/fractal-geometry.png){width=50%}
 
 During the second-half of the term, we would formalize our observations. Starting with the Mandelbrot set and extended it to similar forms, such as the Julia set. A Julia set is a bunch of fractals that are similar to the *Mandelbrot Set*. It is a set defined given a rational function, $J(f)$, such that all nearby values behave similarly when the function is repeatedly iterated.
 
-![A Julia Set.](img/julia.png){width=80%}
-
+![A Julia Set](img/julia.png){width=50%}
 
 
 [My 2nd math course at UNC]{style="color:orange;"}
 
 *Calculus of Functions of Several Variables*
 
-![Karl Petersen, Ergodic theory](img/petersen.avif)
+My second math course was in stark contrast to what I had imaged the rest of my mathematical experiences would be in college. I would spend nearly every day after class with Dr. Petersen, building my first honest relationship with a professor.
+
+![Karl Petersen, Ergodic theory](img/petersen.avif){width=50%}
 
 [My job as a grader and teaching assistant]{style="color:orange;"}
 
-![UNC Math Help Center](img/math-help-center.avif){width=80%}
+![UNC Math Help Center](img/math-help-center.avif){width=50%}
 
 *Differential Equations* and *Linear Algebra for Applications*
 
@@ -160,40 +172,78 @@ During the second-half of the term, we would formalize our observations. Startin
 
 Dr. Assani, a  Beninese mathematician, joined the UNC mathematics department in 1988 but, for racist reasons, was turned down for tenure. He appealed through the courts, won his case and gained tenure in 1995, and was promoted to full professor one year later. In doing so he became the first Black tenured associate mathematics professor and the first Black full mathematics professor at UNC, as well as the only mathematician there to be promoted from associate to full so quickly (Mathematicians of the African Diaspora, 2014)
 
-![Idris Assani, Ergodic theory](img/assani.avif){width=80%}
+![Idris Assani, Ergodic theory](img/assani.avif){width=50%}
 
 [Study Abroad at the National University of Singapore]{style="color:orange;"}
 
-As a Pogue Scholar at UNC, I would be selected as part of the first group of students to travel to the National University of Singapore as part of a new exchange program. Given the newness of the program, we would travel early to meet students in Singapore, whose families would serve as our hosts over the holiday break, and they would then leave for UNC at the start of the spring.
+I was selected as part of a first group of students to travel to the National University of Singapore as part of a new exchange program. Given the newness of the program, we would travel early to meet students in Singapore, whose families would serve as our hosts over the holiday break, and they would then leave for UNC at the start of the spring.
 
-![NUS](img/nus.jpg){width=100%}
+![NUS](img/nus.jpg){width=60%}
 
 
-*The Horror of the Other*
+[My favorite course at the National University of Singapore]{style="color:orange;"}
 
-![Chitra Sankaran, Humanities and Social Sciences](img/Chitra-Sankaran.jpg){width=100%}
+In *The Horror of the Other*, a humanities and social science elective, we examined the concept of othering. I would write my first interdisciplinary mathematical analysis of social science concepts using the ideas of equivalence relations, sameness, and difference.
 
-![The Others](img/the-others.jpg){width=100%}
+::: {layout-ncol=2}
 
-![Carol Malloy, 1944-2015, UNC School of Education](img/malloy.jpg){width=100%}
+![Chitra Sankaran, NUS, Humanities and Social Sciences](img/Chitra-Sankaran.jpg){width=80%}
 
-*Lead Math Tutor at UNC's Upward Bound Program*
+![The Others](img/the-others.jpg){width=45%}
+:::
 
-![](img/unc-upward-bound.jpg){width=100%}
+[Junior Year back @ UNC]{style="color:orange;"}
 
-*NYU*
+At Carolina (UNC), the Department of Mathematics is next door to the School of Education. When I returned my junior year, I would meet Dr. Carol Malloy, a famous mathematics educator and faculty member in the School of Education.
 
-![Karen King, 1971-2019, MAT advisor](img/karen-king.jpg){width=100%}
+![Carol Malloy, 1944-2015, UNC School of Education](img/malloy.jpg){width=45%}
 
-![Erica Walker, PhD advisor](img/erica-walker.jpg){width=100%}
+[Lead Math Tutor at UNC's Upward Bound Program]{style="color:orange;"}
 
-![Beyond Banneker by Erica Walker](img/beyond-banneker.jpg){width=100%}
+As a result of meeting Dr. Malloy, I would be asked to become the lead tutor for UNC's Upward Bound program. This would be on top of my job as a TA and grader in the mathematics department. I would tutor undergraduates during the week and teach mathematics to high school students on Saturday mornings.
 
-![Teachers College, Program in Mathematics](img/tc-math.jpg){width=100%}
+![UNC Upward Bound Program](img/unc-upward-bound.jpg){width=60%}
 
-img/karp.jpg
+[Master of Arts in Teaching @ New York University]{style="color:orange;"}
 
-img/pollack.jpg
+I would accept a scholarship to *NYU* to learn how to teach mathematics. While in New York, I would study under Dr. Karen King, who taught me theories of education and the pedagogy of mathematics. [Dr. King would challenge me to create culturally relevant math lessons]{style="color:blue;"}.
+
+![Karen King, 1971-2019, MAT advisor](img/karen-king.jpg){width=40%}
+
+[Student Teaching]{style="color:orange;"}
+
+Pre-service teachers are required to complete about 200 hours of student teaching in a local high school. I was placed at a school for recent Chinese immigrants in the Lower East Side (LES) of New York at the LES Community School. [Here, I created my first ethnomathematics unit plan]{style="color:blue;"}.
+
+![Camping trip with students from Lower East Side Community School, 2008](img/student-teaching.jpg){width=50%}
+
+
+[Teacher of Record]{style="color:orange;"}
+
+My first teaching experience as the teacher of record would be in Bedstudy, Brooklyn, NY at a middle school for Boys. I would move from Brooklyn to Harlem to teach at the Harlem Children's Zone. [I would be tapped by the COO, George Khaldun, to support org-wide statistical analysis with external, mostly white, business consultants. Given their lack of contextual knowledge, I became interested in getting a PhD to combat their deficit narratives of the youth and families]{style="color:blue;"}.
+
+![TRUCE @ Harlem Children's Zone](img/hcz.jpg){width=40%}
+
+[PhD program in Mathematics and Education @ Columbia University]{style="color:orange;"}
+
+I would go on to study in the Program in Mathematics at Teachers College, Columbia University. The first program of its kind in the country. In this program, 75 credit hours over 5 years, we take [PhD courses and qualifying exams in mathematics]{style="color:blue;"} (I completed exam requirements in Topology/Geometry, Statistics & Probability Theory, and Analysis) and advanced [theory courses in mathematical education]{style="color:blue;"}. This allows us to work in both departments of mathematics and schools of education.
+
+![Teachers College, Program in Mathematics](img/tc-math.jpg){width=40%}
+
+
+[Doctoral work as a Gradaute Research Assistant]{style="color:orange;"}
+
+I studied under Dr. Erica Walker, who studies the histories and social networks of Black mathematicians. As her graduate assistant, I would begin my initial foray into archival research as she completed her book, *Beyond Banneker*.
+
+::: {layout-ncol=2}
+
+![Erica Walker, my PhD advisor](img/erica-walker.jpg){width=90%}
+
+![Beyond Banneker by Erica Walker](img/beyond-banneker.jpg){width=40%}
+
+:::
+
+
+
 ---
 
 {{< video <iframe width="560" height="315" src="https://www.youtube.com/embed/MK2KrJTsZ2k?si=_EYjcu2_hqs_x1T3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> width="100%" height="100%" >}}
