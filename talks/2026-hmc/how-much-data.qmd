@@ -1504,20 +1504,6 @@ ggplot(merged_cre_htn_dc_clean_2021, aes(x = hypertension_rate, y = PRED3_PE)) +
 ```
 
 
-# Race and Ethnicity
-
-We are also developing a dashboard for internal use to automate some processes.
-
-[US Census Demographics Data Dashboard](https://census-dashboard-3102a5a2e14b.herokuapp.com/){target="_blank"}
-
-## Political analysis
-
-Examining the impact of broader political shifts on neighborhood measures.
-
-- **Project title**:  *Examining Polling Location Changes After The Shelby County Decision: How a Lack of Federal Oversight Impacts Poll Accessibility in Black and Brown Communities*
-
-- **Abstract**: Since the Supreme Court’s Shelby Decision in 2013, states are no longer required to have polling station changes or closures federally reviewed. Given that over 1600 polling locations have been closed or changed since 2013, we ask what factors contribute to these polling location changes and closures? We examine the driving forces behind these changes, and use Census data to determine what implications these polling location changes may have on accessibility in communities of color.
-
 # Special Thanks
 
 **Research assistants**: Myles Ndiritu (Morehouse College), Zoe Williams (Howard University), Kade Davis (Morehouse College), Amari Gray (Morehouse College)
