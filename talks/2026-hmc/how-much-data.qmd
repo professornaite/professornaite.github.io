@@ -60,12 +60,140 @@ library(weights)
 library(knitr)
 ```
 
+---
 
-![](img/spring-2007-unc-math.jpg){width=100%}
+Framing the talk.
+
+---
+
+[A bit about my ancestors, my journey, teachers, and students.]{style="color:orange;"}
+
+[*A stolen people on stolen land.*]{style="color:blue;"}
+
+My ancestors come from the coast of the Carolinas (NC and SC), where enslaved Africans entered what is now known as the United States. I was born in Charlotte, NC. Meaning that, over time, like many other Black families, there was little movement beyond the South.
+
+![The Carolinas, from the Equal Justice Initiative (2026)](img/carolinas.jpg){width=80%}
+
+My family has very few historical records of our ancestors.
+
+![My maternal ancestors circa 1900](img/_family photo from 1900s.jpg){width=60%}
+
+In 1971, Charlotte, NC, became a national model for school desegregation through court-ordered busing following the landmark *Swann v. Charlotte-Mecklenburg Board of Education* Supreme Court ruling. [*In 1989, at the age of 5, I would become part of this desegregation plan.*]{style="color:blue;"}
+
+![Busing as a result of *Swann v. Charlotte-Mecklenburg Board of Education*](img/busing.avif){width=60%}
+
+I was raised in a public housing project in South Charlotte, known as Boulevard Homes in the 90s. These projects were just one exit, a literal two-minute drive, from the Charlotte Airport. This meant that we were in a food and transportation desert next to a busy roadway, Billy Graham Parkway, separated only by a single line of trees.
+
+![Boulevard Homes Public Housing Project, Charlotte, NC](img/boulevard-homes.jpg){width=60%}
 
 
-![](img/assani.avif){width=100%}
+By mere luck, I would be bused to Selwyn Elementary, the #1 elementary school in Charlotte at the time. For context, the surrounding median home value as of Feb. 2026 is $2,524,500^[Houses of South Charlotte: https://www.housesofsouthcharlotte.com/charlotte-nc/selwyn-elementary-school-boundary-map/].
 
+![Selwyn Elementary School](img/selwyn.jpg){width=60%}
+
+[The mathematics of opportunity.]{style="color:orange;"}
+
+As a result of busing, I would have access to educational resources that my first cousins, who lived in the housing project across the street, known as Little Rock in the 90s, would not be able to access. [Their bus took them to a different school on the other side of Charlotte]{style="color:blue;"}.
+
+I recently published a paper on this issue in the *Journal of Negro Education*.
+
+  - Alexander, N. N. (2024). Measuring School Desegregation: A Critical Quantitative Replication. *The Journal of Negro Education, 93*(3), 318-331.
+  
+In this paper, I discuss a mathematical model used to measure segregation, known as the Index of Dissimilarity, and its relationship to the 70th Anniversary of the 1954 *Brown v. Board of Education of Topeka* Supreme Court decision. [More on this later...]{style="color:blue;"}
+
+$$ D = \frac{1}{2} \sum_{i=1}^n \left| \frac{b_i}{B} - \frac{w_i}{W} \right| $$
+
+[For the love of mathematics.]{style="color:orange;"}
+
+![My first club at Alexander Graham Middle School](img/odyssey.png){width=80%}
+
+I would then spend a summer in Boone, NC with the Summer Ventures Program. It was here that I decided I wanted to be an architect, after spending most of my time building housing structures with balsawood.
+
+![Summer Ventures Program](img/summer-ventures.jpeg){width=60%}
+
+![Phillips Hall, UNC Department of Mathematics](img/phillips.avif){width=60%}
+
+[@UNC - Double major in mathematics and sociology.]{style="color:orange;"}
+
+I was the only Black math major in the department.
+
+I would fall in love with coding in my statistics courses in sociology.
+
+![](img/spring-2007-unc-math.jpg){width=80%}
+
+
+[My 1st math course at UNC]{style="color:orange;"} 
+
+**MATH 89H - First Year Honors Seminar -- Fractals**. *Taught by Sue Goodman, Topologist*.
+
+We spent the first-half of the term making connections to the real world; most literally, going outside to observe tree bark, patterns in the grass, reading books (e.g., The Labryinth), and writing "fractal" poems.
+
+![](img/fractal-geometry.png){width=80%}
+
+During the second-half of the term, we would formalize our observations. Starting with the Mandelbrot set and extended it to similar forms, such as the Julia set. A Julia set is a bunch of fractals that are similar to the *Mandelbrot Set*. It is a set defined given a rational function, $J(f)$, such that all nearby values behave similarly when the function is repeatedly iterated.
+
+![A Julia Set.](img/julia.png){width=80%}
+
+
+
+[My 2nd math course at UNC]{style="color:orange;"}
+
+*Calculus of Functions of Several Variables*
+
+![Karl Petersen, Ergodic theory](img/petersen.avif)
+
+[My job as a grader and teaching assistant]{style="color:orange;"}
+
+![UNC Math Help Center](img/math-help-center.avif){width=80%}
+
+*Differential Equations* and *Linear Algebra for Applications*
+
+::: {layout-ncol=2}
+
+![James Damon, Singularity theory](img/damon.avif)
+
+![Noberto Kerzman (1943-2019), Complex analysis](img/kerzman.avif)
+
+:::
+
+[Introduction to Real Analysis]{style="color:orange;"}
+
+Dr. Assani, a  Beninese mathematician, joined the UNC mathematics department in 1988 but, for racist reasons, was turned down for tenure. He appealed through the courts, won his case and gained tenure in 1995, and was promoted to full professor one year later. In doing so he became the first Black tenured associate mathematics professor and the first Black full mathematics professor at UNC, as well as the only mathematician there to be promoted from associate to full so quickly (Mathematicians of the African Diaspora, 2014)
+
+![Idris Assani, Ergodic theory](img/assani.avif){width=80%}
+
+[Study Abroad at the National University of Singapore]{style="color:orange;"}
+
+As a Pogue Scholar at UNC, I would be selected as part of the first group of students to travel to the National University of Singapore as part of a new exchange program. Given the newness of the program, we would travel early to meet students in Singapore, whose families would serve as our hosts over the holiday break, and they would then leave for UNC at the start of the spring.
+
+![NUS](img/nus.jpg){width=100%}
+
+
+*The Horror of the Other*
+
+![Chitra Sankaran, Humanities and Social Sciences](img/Chitra-Sankaran.jpg){width=100%}
+
+![The Others](img/the-others.jpg){width=100%}
+
+![Carol Malloy, 1944-2015, UNC School of Education](img/malloy.jpg){width=100%}
+
+*Lead Math Tutor at UNC's Upward Bound Program*
+
+![](img/unc-upward-bound.jpg){width=100%}
+
+*NYU*
+
+![Karen King, 1971-2019, MAT advisor](img/karen-king.jpg){width=100%}
+
+![Erica Walker, PhD advisor](img/erica-walker.jpg){width=100%}
+
+![Beyond Banneker by Erica Walker](img/beyond-banneker.jpg){width=100%}
+
+![Teachers College, Program in Mathematics](img/tc-math.jpg){width=100%}
+
+img/karp.jpg
+
+img/pollack.jpg
 ---
 
 {{< video <iframe width="560" height="315" src="https://www.youtube.com/embed/MK2KrJTsZ2k?si=_EYjcu2_hqs_x1T3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> width="100%" height="100%" >}}
